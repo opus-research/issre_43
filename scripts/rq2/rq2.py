@@ -6,12 +6,21 @@ from openai import AsyncOpenAI
 import openai
 import tiktoken
 from dotenv import load_dotenv
+from pathlib import Path
 
 from utils.rate_limiter import RateLimiter
+from utils.paths import get_project_paths
+
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
 
 load_dotenv()
 client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-projects_file = "../../data/raw/projects_by_language.json"
+projects_file = DATA_DIR / "raw" / "projects_by_language.json"
+MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")  # Default to gpt-4o if not specified
 
 def extract_json_from_code_block(text):
     if text.startswith("```json") or text.startswith("```"):
@@ -59,7 +68,7 @@ def evaluate_booleans_locally(pr_data):
         }
     return results
 
-def count_tokens(text, model="gpt-4o-mini"):
+def count_tokens(text, model=MODEL):
     encoding = tiktoken.encoding_for_model(model)
     return len(encoding.encode(text))
 
@@ -85,7 +94,7 @@ def split_prs_smart(textual_prompt, guidelines, prs, target_tokens=40000):
 
     return batches
 
-def safe_openai_call(messages, model="gpt-4o-mini", retries=5, sleep_base=10):
+def safe_openai_call(messages, model=MODEL, retries=5, sleep_base=10):
     for attempt in range(retries):
         try:
             response = client.chat.completions.create(
@@ -116,14 +125,14 @@ def safe_openai_call(messages, model="gpt-4o-mini", retries=5, sleep_base=10):
 
 def load_raw(owner, repo):
     # Carrega dados dos PRs para extrair campos booleanos
-    with open(f"../data/pull_requests/{owner}_{repo}_aggregated_issues.json") as f:
+    with open(DATA_DIR / "pull_requests" / f"{owner}_{repo}_aggregated_issues.json") as f:
         pr_data = json.load(f)
 
     # Gera os resultados booleanos
     boolean_results = evaluate_booleans_locally(pr_data)
 
     # Lê os resultados textuais dos batches
-    batch_folder = f"../results/rq2/{repo}_raw_batches"
+    batch_folder = RESULTS_DIR / "rq2" / f"{repo}_raw_batches"
     textual_results = load_and_merge_raw_batches(batch_folder)
 
     # Junta os dois
@@ -142,12 +151,12 @@ def load_raw(owner, repo):
         })
 
     # Salva o resultado final
-    with open(f"../results/rq2/{repo}_guideline_compliance_output.json", "w", encoding="utf-8") as f:
+    with open(RESULTS_DIR / "rq2" / f"{repo}_guideline_compliance_output.json", "w", encoding="utf-8") as f:
         json.dump(final_output, f, indent=2)
 
     print("✅ JSON final unificado com textuais + booleanos salvo!")
 
-def count_tokens(text, model="gpt-4o-mini"):
+def count_tokens(text, model=MODEL):
     enc = tiktoken.encoding_for_model(model)
     return len(enc.encode(text))
 
@@ -183,9 +192,9 @@ def split_prs_smart(textual_prompt, guidelines, prs, max_input_tokens=60000):
 
 # === Async evaluator for one batch ===
 async def evaluate_batch(i, batch, project_name, textual_prompt, guidelines, rate_limiter, client, semaphore):
-    output_dir = f"../results/rq2/{project_name}_raw_batches"
+    output_dir = RESULTS_DIR / "rq2" / f"{project_name}_raw_batches"
     os.makedirs(output_dir, exist_ok=True)
-    batch_path = os.path.join(output_dir, f"batch_{i+1}.txt")
+    batch_path = output_dir / f"batch_{i+1}.txt"
 
     if os.path.exists(batch_path):
         print(f"✅ {project_name} - Batch {i+1} already exists. Skipping.")
@@ -206,7 +215,7 @@ async def evaluate_batch(i, batch, project_name, textual_prompt, guidelines, rat
     async with semaphore:
         try:
             response = await client.chat.completions.create(
-                model="gpt-4o-mini",
+                model=MODEL,
                 messages=messages,
                 temperature=0.2,
                 max_tokens=16384
@@ -221,46 +230,53 @@ async def evaluate_batch(i, batch, project_name, textual_prompt, guidelines, rat
             return []
 
 # === Master runner ===
-async def run_all_projects():
-    with open("../../data/raw/projects_by_language.json", "r", encoding="utf-8") as f:
+async def main():
+    # Load projects and guidelines
+    with open(projects_file, "r", encoding="utf-8") as f:
         projects = json.load(f)["projects"]
 
-    with open("../../results/rq1/guidelines_textual.json", "r", encoding="utf-8") as f:
+    with open(RESULTS_DIR / "rq1" / "guidelines_textual.json", "r", encoding="utf-8") as f:
         guidelines = json.load(f)['response']['final_guidelines']
 
-    with open("../../prompts/openai_rq2.txt", "r", encoding="utf-8") as f:
+    with open(PROMPTS_DIR / "openai_rq2.txt", "r", encoding="utf-8") as f:
         textual_prompt = f.read()
 
+    # Initialize OpenAI client and rate limiter
     client = AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     rate_limiter = RateLimiter()
     semaphore = asyncio.Semaphore(100)
     tasks = []
 
+    # Process each project
     for project in projects:
         owner = project["owner"]
         repo = project["repo"]
         project_name = f"{owner}_{repo}"
 
-        path = f"../data/pull_requests/{owner}_{repo}_aggregated_issues.json"
+        path = DATA_DIR / "pull_requests" / f"{owner}_{repo}_aggregated_issues.json"
         if not os.path.exists(path):
             continue
 
         with open(path, "r", encoding="utf-8") as f:
             pr_data = json.load(f)
 
-        prs = [
-            {"pull_request_id": str(pr["_id"]), "comments": pr.get("comments", [])}
-            for pr in pr_data if pr.get("comments") or pr.get("commit_messages")
-        ][:1000]
+        # Prepare PRs for evaluation
+        textual_prs = prepare_textual_prs(pr_data)
+        batches = split_prs_smart(textual_prompt, guidelines, textual_prs)
 
-        batches = split_prs_smart(textual_prompt, guidelines, prs, max_input_tokens=60000)
-        print(f"🚀 {project_name} → {len(batches)} batches")
-
+        # Create tasks for each batch
         for i, batch in enumerate(batches):
-            tasks.append(evaluate_batch(i, batch, project_name, textual_prompt, guidelines, rate_limiter, client, semaphore))
+            task = evaluate_batch(i, batch, project_name, textual_prompt, guidelines, rate_limiter, client, semaphore)
+            tasks.append(task)
 
-    all_results = await asyncio.gather(*tasks)
-    print("✅ All batches complete.")
+    # Run all tasks concurrently
+    results = await asyncio.gather(*tasks)
+
+    # Process results for each project
+    for project in projects:
+        owner = project["owner"]
+        repo = project["repo"]
+        load_raw(owner, repo)
 
 if __name__ == "__main__":
-    asyncio.run(run_all_projects())
+    asyncio.run(main())

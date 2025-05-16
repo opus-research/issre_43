@@ -3,12 +3,19 @@ import json
 import csv
 import re
 import openai
+from utils.paths import get_project_paths
 from pathlib import Path
 
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
+
 # Configuration
-DATA_PATH = Path("./data/")
-OUTPUT_PATH = Path("./data/processed_guidelines")
-PROMPTS_PATH = Path("./prompts")
+# DATA_PATH = Path("./data/")
+# OUTPUT_PATH = Path("./data/processed_guidelines")
+# PROMPTS_PATH = Path("./prompts")
 
 def main():
     # Get configuration from environment variables
@@ -18,10 +25,11 @@ def main():
         raise ValueError("OPENAI_API_KEY environment variable is not set")
 
     # Create output directory
+    OUTPUT_PATH = RESULTS_DIR / "processed_guidelines"
     os.makedirs(OUTPUT_PATH, exist_ok=True)
 
     # Read the guideline presence data
-    with open(DATA_PATH / "rq1" / "guideline_presence_by_project.json", 'r') as f:
+    with open(DATA_DIR / "rq1" / "guideline_presence_by_project.json", 'r') as f:
         guideline_data = json.load(f)
 
     # Get all projects from guideline data
@@ -32,7 +40,7 @@ def main():
     # Read the contributing.csv to get the list of projects and their languages
     projects_info = {}
     missing_projects = []
-    with open(DATA_PATH / "raw" / "contributing.csv", 'r') as f:
+    with open(DATA_DIR / "raw" / "contributing.csv", 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
             # Extract repository name from URL

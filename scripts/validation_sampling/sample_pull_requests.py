@@ -55,7 +55,7 @@ def sample_pull_requests():
 
     # Sample 50 projects per language
     selected = []
-    for language in ['Python', 'Javascript', 'Java', 'C#']:
+    for language in ['Python', 'Javascript', 'Java', 'CSharp']:
         language_candidates = per_language.get(language, [])
         if language_candidates:
             selected.extend(random.sample(language_candidates, min(50, len(language_candidates))))

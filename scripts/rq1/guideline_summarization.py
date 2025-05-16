@@ -1,12 +1,19 @@
 import json
 import os
 import openai
+from utils.paths import get_project_paths
 from pathlib import Path
 
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
+
 # Configuration
-DATA_PATH = Path("./data/")
-OUTPUT_PATH = Path("./data/summarized_guidelines")
-PROMPTS_PATH = Path("./prompts")
+# DATA_PATH = Path("./data/")
+# OUTPUT_PATH = Path("./data/summarized_guidelines")
+# PROMPTS_PATH = Path("./prompts")
 
 def main():
     # Get configuration from environment variables
@@ -16,10 +23,11 @@ def main():
         raise ValueError("OPENAI_API_KEY environment variable is not set")
 
     # Create output directory
+    OUTPUT_PATH = RESULTS_DIR / "summarized_guidelines"
     os.makedirs(OUTPUT_PATH, exist_ok=True)
 
     # Load the project list
-    with open(DATA_PATH / "raw" / "projects_by_language.json", "r", encoding="utf-8") as f:
+    with open(DATA_DIR / "raw" / "projects_by_language.json", "r", encoding="utf-8") as f:
         projects = json.load(f)["projects"]
 
     # Dictionary to store guidelines per project
@@ -29,7 +37,7 @@ def main():
         owner = project["owner"]
         repo = project["repo"]
         filename = f"{owner}-{repo}.json"
-        file_path = DATA_PATH / "gpt-4o-guidelines" / filename
+        file_path = RESULTS_DIR / "gpt-4o-guidelines" / filename
 
         if not file_path.exists():
             print(f"⚠️ File not found: {file_path}")

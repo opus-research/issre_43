@@ -1,6 +1,13 @@
 import json
 import os
 import re
+from utils.paths import get_project_paths
+
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
 
 def extract_and_fix_json_list(text):
     text = text.strip()
@@ -53,8 +60,8 @@ def extract_and_fix_json_list(text):
     return valid_objects
 
 def compile_project_results(project_name):
-    raw_dir = f"../results/rq2/{project_name}_raw_batches"
-    output_path = f"../results/rq2/{project_name}_guideline_compliance_output.json"
+    raw_dir = RESULTS_DIR / "rq2" / f"{project_name}_raw_batches"
+    output_path = RESULTS_DIR / "rq2" / f"{project_name}_guideline_compliance_output.json"
     all_results = []
 
     if not os.path.exists(raw_dir):
@@ -62,7 +69,7 @@ def compile_project_results(project_name):
 
     batch_files = sorted([f for f in os.listdir(raw_dir) if f.endswith(".txt")])
     for batch_file in batch_files:
-        with open(os.path.join(raw_dir, batch_file), "r", encoding="utf-8") as f:
+        with open(raw_dir / batch_file, "r", encoding="utf-8") as f:
             raw_text = f.read()
             parsed = extract_and_fix_json_list(raw_text)
             all_results.extend(parsed)
@@ -74,9 +81,9 @@ def compile_project_results(project_name):
 
 def merge_compliance_results(owner, repo):
     project_name = f"{owner}_{repo}"
-    base_path = f"../results/rq2/{project_name}_guideline_compliance_output.json"
-    extra_path = f"../results/rq2/compliance/{repo}_guideline_compliance_output.json"
-    output_path = f"../results/rq2/merged/{project_name}_guideline_compliance_output.json"
+    base_path = RESULTS_DIR / "rq2" / f"{project_name}_guideline_compliance_output.json"
+    extra_path = RESULTS_DIR / "rq2" / "compliance" / f"{repo}_guideline_compliance_output.json"
+    output_path = RESULTS_DIR / "rq2" / "merged" / f"{project_name}_guideline_compliance_output.json"
 
     if not os.path.exists(base_path) or not os.path.exists(extra_path):
         print(f"⛔ Missing files for {project_name}")
@@ -113,7 +120,7 @@ def merge_compliance_results(owner, repo):
 
     print(f"✅ Merged result saved: {output_path}")
 
-with open("../../projects_by_language4.json", "r", encoding="utf-8") as f:
+with open(DATA_DIR / "raw" / "projects_by_language4.json", "r", encoding="utf-8") as f:
     projects = json.load(f)["projects"]
 
 for project in projects:

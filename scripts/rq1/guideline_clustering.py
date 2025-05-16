@@ -3,15 +3,17 @@ import json
 import string
 import nltk
 import numpy as np
+from utils.paths import get_project_paths
 from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import AgglomerativeClustering
 import openai
 
-# Configuration
-DATA_PATH = Path("./data/")
-OUTPUT_PATH = Path("./data/guidelines_clustered.json")
-PROMPTS_PATH = Path("./prompts")
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
 
 # Get configuration from environment variables
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")  # Default to gpt-4o if not specified
@@ -23,7 +25,7 @@ def load_prompt(prompt_name: str) -> str:
     """
     Load a prompt from the prompts directory.
     """
-    prompt_path = os.path.join(PROMPTS_PATH, f"{prompt_name}.txt")
+    prompt_path = PROMPTS_DIR / f"{prompt_name}.txt"
     try:
         with open(prompt_path, "r") as f:
             return f.read().strip()
@@ -71,9 +73,9 @@ def cluster_guidelines(guidelines: list):
         clusters[cluster_label].append(topic)
 
     # Save clusters
-    output_path = os.path.join(DATA_PATH, "gpt-4o-clusters")
+    output_path = RESULTS_DIR / "gpt-4o-clusters"
     os.makedirs(output_path, exist_ok=True)
-    output_file = os.path.join(output_path, "all_projects.json")
+    output_file = output_path / "all_projects.json"
     with open(output_file, "w") as f:
         json.dump(clusters, f, indent=2)
 
@@ -131,7 +133,8 @@ def main():
         nltk.download('stopwords')
 
     # Get list of projects
-    projects = [name.removesuffix(".json") for name in os.listdir(OUTPUT_PATH)]
+    output_path = RESULTS_DIR / "gpt-4o-guidelines"
+    projects = [name.removesuffix(".json") for name in os.listdir(output_path)]
     print(f"Found {len(projects)} projects to process")
 
     # Collect all guidelines
@@ -141,19 +144,16 @@ def main():
     for project in projects:
         print(f"Processing {project}...")
         try:
-            with open(os.path.join(OUTPUT_PATH, f"{project}.json"), "r") as f:
+            with open(output_path / f"{project}.json", "r") as f:
                 project_data = json.load(f)
-            
             # Extract guidelines for this project
             project_guidelines[project] = extract_guidelines(project_data)
             global_guidelines.extend(project_guidelines[project])
-            
         except Exception as e:
             print(f"Error processing {project}: {str(e)}")
             continue
 
     print(f"Total guidelines collected: {len(global_guidelines)}")
-    
     # Cluster the guidelines
     cluster_guidelines(global_guidelines)
 

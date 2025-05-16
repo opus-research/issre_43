@@ -1,5 +1,12 @@
 import pandas as pd
 import numpy as np
+from utils.paths import get_project_paths
+
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
 
 def normalize(val):
     val = str(val).strip().upper()
@@ -10,8 +17,8 @@ def normalize(val):
     return val
 
 # Read the CSV files
-oracle = pd.read_csv('results/contributing_fixed.csv')
-validation = pd.read_csv('results/guideline_presence.csv')
+oracle = pd.read_csv(RESULTS_DIR / "contributing_fixed.csv")
+validation = pd.read_csv(RESULTS_DIR / "guideline_presence.csv")
 
 # Get the columns to compare (excluding Language and Contribution Guideline File)
 columns_to_compare = oracle.columns[2:]

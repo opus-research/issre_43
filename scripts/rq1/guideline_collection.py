@@ -2,16 +2,23 @@ import os
 import pathlib
 import json
 import time
+from utils.paths import get_project_paths
 
 import markdown
 import bs4
 import openai
 from tqdm.auto import tqdm
 
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
+
 # Configuration
-DATA_PATH = pathlib.Path("./data/")
-OUTPUT_PATH = pathlib.Path("./data/gpt-4o-guidelines")
-PROMPTS_PATH = pathlib.Path("./prompts")
+# DATA_PATH = pathlib.Path("./data/")
+# OUTPUT_PATH = pathlib.Path("./data/gpt-4o-guidelines")
+# PROMPTS_PATH = pathlib.Path("./prompts")
 
 # Get configuration from environment variables
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")  # Default to gpt-4o if not specified
@@ -23,7 +30,7 @@ def load_prompt(prompt_name: str) -> str:
     """
     Load a prompt from the prompts directory.
     """
-    prompt_path = os.path.join(PROMPTS_PATH, f"{prompt_name}.txt")
+    prompt_path = PROMPTS_DIR / f"{prompt_name}.txt"
     try:
         with open(prompt_path, "r") as f:
             return f.read().strip()
@@ -86,7 +93,7 @@ def process_project(language, project_name, index, total_projects):
         'README': {}
     }
     
-    project_path = os.path.join(DATA_PATH, language, project_name)
+    project_path = os.path.join(DATA_DIR, language, project_name)
 
     # Process files
     try:
@@ -123,11 +130,12 @@ def main():
     Main function to process all projects.
     """
     # Create output directory
+    OUTPUT_PATH = RESULTS_DIR / "gpt-4o-guidelines"
     os.makedirs(OUTPUT_PATH, exist_ok=True)
 
     # Load projects from JSON file
     try:
-        with open(os.path.join(DATA_PATH, "raw", "projects_by_language.json"), "r") as f:
+        with open(DATA_DIR / "raw" / "projects_by_language.json", "r") as f:
             projects_data = json.load(f)
     except Exception as e:
         print(f"Error loading projects data: {str(e)}")
@@ -141,7 +149,7 @@ def main():
         for project_name in projects:
             # Convert project name to the format used in the output files
             output_project_name = project_name.replace('/', '-')
-            output_file_path = os.path.join(OUTPUT_PATH, f"{output_project_name}.json")
+            output_file_path = OUTPUT_PATH / f"{output_project_name}.json"
             
             # Skip if already processed
             if os.path.exists(output_file_path):

@@ -2,6 +2,13 @@ import csv
 import json
 import os
 from pathlib import Path
+from utils.paths import get_project_paths
+
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
 
 def get_project_name_from_url(url):
     # Extract owner/repo from GitHub URL
@@ -16,9 +23,9 @@ def get_pr_number_from_url(url):
 
 def main():
     # Input and output paths
-    prs_csv_path = 'results/prs.csv'
-    merged_dir = 'results/rq2/merged'
-    output_csv_path = 'results/prs_processed.csv'
+    prs_csv_path = RESULTS_DIR / "prs.csv"
+    merged_dir = RESULTS_DIR / "rq2" / "merged"
+    output_csv_path = RESULTS_DIR / "prs_processed.csv"
 
     # Read the PRs CSV file
     with open(prs_csv_path, 'r') as f:

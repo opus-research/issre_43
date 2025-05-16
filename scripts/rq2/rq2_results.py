@@ -3,14 +3,16 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 from collections import defaultdict
+from utils.paths import get_project_paths
 
-# === Config ===
-projects_file = "../projects_by_language4.json"
-data_dir = "../results/rq2/merged"
-file_suffix = "_guideline_compliance_output.json"
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
 
 # === Load project metadata ===
-with open(projects_file, "r") as f:
+with open(DATA_DIR / "raw" / "projects_by_language4.json", "r") as f:
     projects = json.load(f)["projects"]
 
 # === Aggregate compliance by language ===
@@ -20,7 +22,7 @@ for project in projects:
     owner = project["owner"]
     repo = project["repo"]
     language = project["language"]
-    filepath = os.path.join(data_dir, f"{owner}_{repo}{file_suffix}")
+    filepath = RESULTS_DIR / "rq2" / "merged" / f"{owner}_{repo}_guideline_compliance_output.json"
 
     if not os.path.exists(filepath):
         print(f"Skipping {repo} (file not found)")
@@ -65,7 +67,7 @@ plt.ylabel("Compliance Percentage (%)")
 plt.xticks(rotation=45, ha="right")
 plt.ylim(0, 100)
 plt.tight_layout()
-plt.savefig("../results/rq2/rq2_guideline_compliance_by_language_with_overall.png", bbox_inches="tight")
+plt.savefig(RESULTS_DIR / "rq2" / "rq2_guideline_compliance_by_language_with_overall.png", bbox_inches="tight")
 plt.show()
 
 # === Plot overall compliance separately ===
@@ -76,9 +78,9 @@ plt.ylabel("Compliance Percentage (%)")
 plt.xticks(rotation=45, ha="right")
 plt.ylim(0, 100)
 plt.tight_layout()
-plt.savefig("../results/rq2/rq2_overall_guideline_compliance.png", bbox_inches="tight")
+plt.savefig(RESULTS_DIR / "rq2" / "rq2_overall_guideline_compliance.png", bbox_inches="tight")
 plt.show()
 
 # === Save data ===
-df.to_csv("../results/rq2/guideline_compliance_by_language_incl_overall.csv")
-df.loc[["Overall Avg"]].to_csv("../results/rq2/overall_guideline_compliance.csv")
+df.to_csv(RESULTS_DIR / "rq2" / "guideline_compliance_by_language_incl_overall.csv")
+df.loc[["Overall Avg"]].to_csv(RESULTS_DIR / "rq2" / "overall_guideline_compliance.csv")

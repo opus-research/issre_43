@@ -7,10 +7,13 @@ import os
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-# === Configuration ===
-DATA_PATH = Path("./data/")
-OUTPUT_PATH = Path("./data/rq1_results")
-PROMPTS_PATH = Path("./prompts")
+from scripts.utils.paths import get_project_paths
+
+# Get project paths
+PATHS = get_project_paths()
+DATA_DIR = PATHS["data"]
+RESULTS_DIR = PATHS["results"]
+PROMPTS_DIR = PATHS["prompts"]
 
 # Get configuration from environment variables
 MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")  # Default to gpt-4o if not specified
@@ -19,16 +22,17 @@ if not openai.api_key:
     raise ValueError("OPENAI_API_KEY environment variable is not set")
 
 # Create output directories
+OUTPUT_PATH = RESULTS_DIR / "rq1"
 os.makedirs(OUTPUT_PATH, exist_ok=True)
 os.makedirs(OUTPUT_PATH / "plots", exist_ok=True)
 
 def cluster_guidelines():
     # Load the prompt text
-    with open("../../prompts/openai_rq1.txt", "r", encoding="utf-8") as f:
+    with open(PROMPTS_DIR / "openai_rq1.txt", "r", encoding="utf-8") as f:
         base_prompt = f.read()
 
     # Load clustered guideline input JSON
-    with open(DATA_PATH / "guidelines_clustered.json", "r", encoding="utf-8") as f:
+    with open(DATA_DIR / "guidelines_clustered.json", "r", encoding="utf-8") as f:
         guidelines = json.load(f)
 
     full_prompt = f"{base_prompt.strip()}\n\nHere is the clustered guideline data:\n{json.dumps(guidelines, indent=2)}"
@@ -62,11 +66,11 @@ def cluster_guidelines():
     with open(OUTPUT_PATH / "guidelines.json", "w", encoding="utf-8") as f:
         json.dump(result_json, f, indent=2, ensure_ascii=False)
 
-    print("✅ Output saved to data/rq1_results/guidelines.json")
+    print("✅ Output saved to results/rq1/guidelines.json")
 
 def guideline_presence_by_project():
     # Load the prompt text
-    with open(PROMPTS_PATH / "guideline_collection.txt", "r", encoding="utf-8") as f:
+    with open(PROMPTS_DIR / "guideline_collection.txt", "r", encoding="utf-8") as f:
         base_prompt = f.read()
 
     # Load final standard guidelines
@@ -76,7 +80,7 @@ def guideline_presence_by_project():
     guidelines = final_guidelines['response']['final_guidelines']
 
     # Load project guideline mentions
-    with open(DATA_PATH / "summarized_guidelines" / "projects_guidelines.json", "r", encoding="utf-8") as f:
+    with open(DATA_DIR / "summarized_guidelines" / "projects_guidelines.json", "r", encoding="utf-8") as f:
         project_guidelines = json.load(f)
 
     full_prompt = f"{base_prompt.strip()}\n\nStandard Guidelines:\n{json.dumps(guidelines, indent=2)}\n\nProject Guidelines:\n{json.dumps(project_guidelines, indent=2)}"
@@ -110,14 +114,14 @@ def guideline_presence_by_project():
     with open(OUTPUT_PATH / "guideline_presence_by_project.json", "w", encoding="utf-8") as f:
         json.dump(result_json, f, indent=2, ensure_ascii=False)
 
-    print("✅ Output saved to data/rq1_results/guideline_presence_by_project.json")
+    print("✅ Output saved to results/rq1/guideline_presence_by_project.json")
 
 def compile_data_by_project():
     # === Load data ===
     with open(OUTPUT_PATH / "guideline_presence_by_project.json", "r", encoding="utf-8") as f:
         presence_data = json.load(f)
 
-    with open(DATA_PATH / "raw" / "projects_by_language.json", "r", encoding="utf-8") as f:
+    with open(DATA_DIR / "raw" / "projects_by_language.json", "r", encoding="utf-8") as f:
         project_metadata = json.load(f)
 
     # === Map project full names to languages ===
@@ -172,7 +176,7 @@ def compile_data_by_project():
     with open(OUTPUT_PATH / "guideline_presence_summary.json", "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2, ensure_ascii=False)
 
-    print("\n📄 Saved to data/rq1_results/guideline_presence_summary.json")
+    print("\n📄 Saved to results/rq1/guideline_presence_summary.json")
 
 def plot_grouped():
     # === Load the summary JSON ===
@@ -222,7 +226,7 @@ def plot_grouped():
         plt.savefig(OUTPUT_PATH / "plots" / f"guideline_presence_per_language_{lang_filename}.png")
         plt.close()
 
-    print("✅ Grouped and per-language charts saved to data/rq1_results/plots/")
+    print("✅ Grouped and per-language charts saved to results/rq1/plots/")
 
 if __name__ == "__main__":
     cluster_guidelines()
