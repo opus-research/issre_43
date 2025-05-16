@@ -1,0 +1,80 @@
+{
+  "CONTRIBUTING": {
+    "219514876ea86491de191ceaa88632616bbc0f19": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "Contributors are expected to adhere to the repository's Code of Conduct. This includes respectful communication, collaboration, and creating a welcoming environment for all users and contributors."
+        },
+        {
+          "title": "New Issues",
+          "description": "Before opening a new issue, search the existing issues to avoid duplicates. When creating an issue, provide a clear and concise description, steps to reproduce the issue, and the expected behavior."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Provide a clear description of the changes made in the pull request. Ensure that the pull request is focused on a single issue or feature to make it easier to review."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write meaningful commit messages that accurately describe the changes made. Use the imperative mood and keep the messages concise but informative."
+        },
+        {
+          "title": "Coding Standards",
+          "description": "Follow the project's coding standards and guidelines to ensure consistency in the codebase. This includes naming conventions, indentation, and other style considerations."
+        },
+        {
+          "title": "Testing",
+          "description": "Include tests for new features and bug fixes to ensure the code works as expected. Moreover, run existing tests to make sure your changes do not break other functionality."
+        },
+        {
+          "title": "Documentation",
+          "description": "Update the documentation to reflect changes made in the codebase. This includes updating README files, inline documentation, and any other related materials."
+        },
+        {
+          "title": "Reviewing Code",
+          "description": "Participate in code reviews by providing constructive feedback on pull requests. Focus on the quality of code, adherence to guidelines, and potential improvements."
+        },
+        {
+          "title": "Branching Model",
+          "description": "Use the project's branching model for contributions. Create branches for features, fixes, and other changes rather than committing directly to the main branch."
+        }
+      ]
+    },
+    "e9f282d8b5b23bc238cd6d3b89676942cdf9e4fa": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "All contributors must follow the project's code of conduct to maintain a welcoming and harassment-free environment."
+        },
+        {
+          "title": "Reporting Issues",
+          "description": "Report any issues or bugs through the project's issue tracker, providing as much detail and context as possible."
+        },
+        {
+          "title": "Submitting Pull Requests",
+          "description": "Submit pull requests for any code changes, ensuring that changes are well-documented and include appropriate tests."
+        },
+        {
+          "title": "Branch Naming",
+          "description": "Use descriptive and consistent naming conventions for branches, reflecting the purpose or feature being developed."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write clear and descriptive commit messages, explaining the changes and reasons behind them."
+        },
+        {
+          "title": "Coding Standards",
+          "description": "Adhere to the project's coding standards and style guidelines to ensure consistency and readability across the codebase."
+        },
+        {
+          "title": "Documentation Updates",
+          "description": "Ensure that any relevant documentation is updated in parallel with code changes, providing clear instructions and explanations."
+        },
+        {
+          "title": "Testing and Continuous Integration",
+          "description": "Run all tests and ensure passing builds before submitting any pull request, leveraging the project's continuous integration tools."
+        }
+      ]
+    }
+  }
+}

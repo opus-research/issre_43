@@ -1,0 +1,64 @@
+{
+  "CONTRIBUTING": {
+    "43f891dac8ff27839079f1c8b39527972ce65fc6": {
+      "guidelines": [
+        {
+          "title": "Issue Reporting",
+          "description": "File detailed issue reports with steps to reproduce, expected results, and actual results. This helps maintainers understand and address problems effectively."
+        },
+        {
+          "title": "Code of Conduct",
+          "description": "Follow the project's code of conduct to ensure a welcoming and inclusive community for all contributors. It outlines acceptable behavior and procedures for reporting incidents."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Submit pull requests with clear descriptions of the changes. Include related issue numbers and ensure all tests pass before submission. This makes it easier for maintainers to review and merge contributions."
+        },
+        {
+          "title": "Coding Standards",
+          "description": "Adhere to the coding standards specified by the project, including naming conventions and code formatting rules. Consistent code style improves readability and maintainability."
+        },
+        {
+          "title": "Testing",
+          "description": "Write tests for new features and bug fixes. Tests help verify that contributions work as intended and do not introduce new issues."
+        },
+        {
+          "title": "Documentation",
+          "description": "Provide or update documentation for any changes made. Clear documentation helps other developers understand how to use and contribute to the project."
+        },
+        {
+          "title": "Branching Strategy",
+          "description": "Follow the project's branching strategy for feature development, bug fixes, and releases. This keeps the codebase organized and simplifies integration of changes."
+        },
+        {
+          "title": "Communication",
+          "description": "Communicate with maintainers and other contributors through issues, pull requests, and project forums. Clear communication helps align efforts and clarify any ambiguities."
+        }
+      ]
+    },
+    "f9337a5f32767eae5afebdfc6055b6d5e6167508": {
+      "guidelines": [
+        {
+          "title": "Submitting Issues",
+          "description": "When submitting issues, provide as much detail as possible including error messages, steps to reproduce, and your development environment. This helps maintainers diagnose and fix problems efficiently."
+        },
+        {
+          "title": "Code Style",
+          "description": "Follow the project's code style, which includes naming conventions, indentation, and other formatting rules. Consistent style makes the codebase easier to read and maintain."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Create pull requests for proposed changes, ensuring you have tested your code and adhered to the project's code guidelines. Each pull request should be linked to a specific issue if applicable."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write clear and descriptive commit messages that explain the purpose of the commit. This practice is essential for maintaining a comprehensible project history."
+        },
+        {
+          "title": "Documentation",
+          "description": "Update documentation to reflect any changes in code or functionality. Accurate documentation helps new contributors understand how to work with the project."
+        }
+      ]
+    }
+  }
+}

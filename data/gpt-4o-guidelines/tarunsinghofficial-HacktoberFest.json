@@ -1,0 +1,36 @@
+{
+  "CONTRIBUTING": {
+    "2cfea28bd5dbcbc27059bc47b79305a5c293c12f": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "All contributors should adhere to the project's code of conduct to ensure a welcoming and inclusive community. This includes respecting others, accepting constructive feedback, and being considerate of different viewpoints."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "When reporting issues, contributors should provide clear, detailed, and reproducible steps to demonstrate the problem. This helps maintainers effectively understand and address the issues."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Contributors are encouraged to submit pull requests with concise, well-documented code. Pull requests should include a description of the changes, related issue numbers, and any additional notes for the reviewers."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Commit messages should be meaningful and descriptive to help others understand the changes made. Follow the project's commit message guidelines for format and content."
+        },
+        {
+          "title": "Testing",
+          "description": "Before submitting code, contributors should ensure their changes are thoroughly tested. Include automated tests where applicable, and verify that existing tests pass without issues."
+        },
+        {
+          "title": "Coding Style",
+          "description": "Adhere to the project's coding style guidelines to maintain consistency throughout the codebase. This includes following naming conventions, formatting rules, and best practices."
+        },
+        {
+          "title": "Documentation",
+          "description": "Contributors should update or add documentation as necessary, making sure that new features or changes are well-explained. This helps other users and developers understand and use the project effectively."
+        }
+      ]
+    }
+  }
+}

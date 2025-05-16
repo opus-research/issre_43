@@ -1,0 +1,32 @@
+{
+  "CONTRIBUTING": {
+    "3bc68c69eb76efd5b37a281886446b2638aed36e": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "All contributors are expected to adhere to the project's code of conduct to maintain a respectful and inclusive environment."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Contributors should check existing issues and follow the issue template when reporting bugs or suggesting features to provide sufficient context and ensure efficient handling."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Pull requests should be well-documented, follow the project's coding standards, and include tests to ensure new code does not introduce issues."
+        },
+        {
+          "title": "Branching Strategy",
+          "description": "Contributors should create new branches for their work and avoid committing directly to the main branch to maintain project stability."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Commit messages should be clear and descriptive to provide meaningful history and make it easier to understand changes."
+        },
+        {
+          "title": "Code Reviews",
+          "description": "All code changes should undergo code review to maintain code quality and encourage knowledge sharing among contributors."
+        }
+      ]
+    }
+  }
+}

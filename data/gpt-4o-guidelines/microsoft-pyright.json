@@ -1,0 +1,76 @@
+{
+  "CONTRIBUTING": {
+    "22e0fb133ac3fea778b8a76cb4e27752d2851624": {
+      "guidelines": [
+        {
+          "title": "Fork the Repository",
+          "description": "Developers should fork the project's repository to their own GitHub account before making any changes. This ensures that there is a clear separation between the main project and the individual contributions."
+        },
+        {
+          "title": "Create a Feature Branch",
+          "description": "Contributors should create a new branch dedicated to the specific feature or issue they are working on. This helps in organizing the code and makes it easier to manage and review the changes."
+        },
+        {
+          "title": "Write Clear Commit Messages",
+          "description": "It is essential to write clear and descriptive commit messages. This practice aids in understanding the history of changes and the purpose of each modification."
+        },
+        {
+          "title": "Ensure Code Quality",
+          "description": "All contributions should adhere to the project's coding standards, including formatting, naming conventions, and documentation. Maintaining high code quality is crucial for the project\u2019s maintainability and readability."
+        },
+        {
+          "title": "Run Tests",
+          "description": "Before submitting a pull request, contributors should run all tests to ensure that their changes do not introduce any new issues. This is important for keeping the project's build stable and reliable."
+        },
+        {
+          "title": "Open a Pull Request",
+          "description": "Once the changes are ready and tested, contributors should open a pull request for review. This allows the maintainers to review and discuss the proposed changes before merging them into the main codebase."
+        },
+        {
+          "title": "Follow the Code of Conduct",
+          "description": "All contributors are expected to follow the project's code of conduct. This helps create a welcoming and respectful community, where everyone feels comfortable and collaboration can thrive."
+        }
+      ]
+    },
+    "a125fd871022af4095dc1f0bc25b9a09822166ea": {
+      "guidelines": [
+        {
+          "title": "Fork the Repository",
+          "description": "Fork the project's repository to your own GitHub account. This allows you to work on the project independently without affecting the main repository."
+        },
+        {
+          "title": "Create a Feature Branch",
+          "description": "Create a new branch in your forked repository for each feature or bugfix you want to work on. This helps in organizing changes and making it easier to manage and review pull requests."
+        },
+        {
+          "title": "Write Detailed Commit Messages",
+          "description": "Provide clear and detailed commit messages that explain the changes you made. This helps maintainers understand the purpose and scope of your contributions."
+        },
+        {
+          "title": "Adhere to Coding Standards",
+          "description": "Follow the coding style and standards outlined by the project. Consistent code quality helps in maintaining readability and collaboration."
+        },
+        {
+          "title": "Document Your Code",
+          "description": "Include documentation for any code changes or new features. Proper documentation helps others understand your code and ensures the project's maintainability."
+        },
+        {
+          "title": "Run Tests",
+          "description": "Run the project's test suite to ensure your changes do not break any existing functionality. Writing new tests if adding features or fixing bugs is strongly encouraged."
+        },
+        {
+          "title": "Submit Pull Request",
+          "description": "Once your changes are complete and tested, submit a pull request to the main repository. Provide a description of the changes and any relevant issue numbers for better clarity."
+        },
+        {
+          "title": "Be Responsive to Feedback",
+          "description": "Monitor your pull request for any feedback from project maintainers and be ready to make necessary changes. Collaboration and responsiveness are key to successful contributions."
+        },
+        {
+          "title": "Respect Contribution Policies",
+          "description": "Respect any additional contribution policies or rules specific to the project. This can include guidelines on licensing, issue reporting, or any other project-specific protocols."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "CONTRIBUTING": {
+    "bb63f7684b177eab26da3dac1660a5fe526020bd": {
+      "guidelines": [
+        {
+          "title": "Set Up Development Environment",
+          "description": "The guideline likely includes instructions on how to set up the development environment to ensure that developers can start contributing to the project quickly and efficiently."
+        },
+        {
+          "title": "Code Style Adherence",
+          "description": "This guideline emphasizes the importance of following the project's coding standards and styles, ensuring consistency and readability across the codebase."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Developers are usually asked to report bugs, feature requests, or other issues via the project's issue tracker, often with specific information to help maintainers understand and address the problem."
+        },
+        {
+          "title": "Pull Request Process",
+          "description": "Guidelines for submitting pull requests, which likely include steps such as forking the repository, creating a feature branch, making commits, and submitting the pull request for review."
+        },
+        {
+          "title": "Writing Tests",
+          "description": "A guideline recommending or requiring developers to write tests for the new features or bug fixes they implement, ensuring that changes are properly validated."
+        },
+        {
+          "title": "Documentation Updates",
+          "description": "Reminds contributors to update the documentation in tandem with code changes to maintain comprehensive and accurate project documentation."
+        },
+        {
+          "title": "Commit Message Format",
+          "description": "The guideline often specifies a preferred format for commit messages to keep commit histories clear and useful, aiding in better project management and code review."
+        },
+        {
+          "title": "Review and Approval",
+          "description": "This guideline describes the process of code review and approval, detailing how contributions are reviewed by maintainers or other contributors before being merged."
+        },
+        {
+          "title": "Community Conduct",
+          "description": "Outlines acceptable behavior within the community, including how contributors should collaborate respectfully and constructively."
+        }
+      ]
+    }
+  }
+}

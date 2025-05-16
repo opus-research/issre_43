@@ -1,0 +1,591 @@
+{
+    "projects": [
+
+        {
+            "owner": "ros2",
+            "repo": "rclcpp",
+            "language": "C#"
+        },
+        {
+            "owner": "isocpp",
+            "repo": "CppCoreGuidelines",
+            "language": "C#"
+        },
+        {
+            "owner": "phalcon",
+            "repo": "cphalcon",
+            "language": "C#"
+        },
+        {
+            "owner": "mongodb",
+            "repo": "mongo-csharp-driver",
+            "language": "C#"
+        },
+        {
+            "owner": "TheAlgorithms",
+            "repo": "Java",
+            "language": "Java"
+        },
+        {
+            "owner": "GeyserMC",
+            "repo": "Geyser",
+            "language": "Java"
+        },
+        {
+            "owner": "yahoo",
+            "repo": "elide",
+            "language": "Java"
+        },
+        {
+            "owner": "tarunsinghofficial",
+            "repo": "HacktoberFest",
+            "language": "Java"
+        },
+        {
+            "owner": "jenkinsci",
+            "repo": "analysis-model",
+            "language": "Java"
+        },
+        {
+            "owner": "jenkinsci",
+            "repo": "jenkins",
+            "language": "Java"
+        },
+        {
+            "owner": "testcontainers",
+            "repo": "testcontainers-java",
+            "language": "Java"
+        },
+        {
+            "owner": "nextcloud",
+            "repo": "android",
+            "language": "Java"
+        },
+        {
+            "owner": "apache",
+            "repo": "rocketmq",
+            "language": "Java"
+        },
+        {
+            "owner": "camunda",
+            "repo": "zeebe",
+            "language": "Java"
+        },
+        {
+            "owner": "jdbi",
+            "repo": "jdbi",
+            "language": "Java"
+        },
+        {
+            "owner": "opensearch-project",
+            "repo": "OpenSearch",
+            "language": "Java"
+        },
+        {
+            "owner": "Azure",
+            "repo": "azure-sdk-for-java",
+            "language": "Java"
+        },
+        {
+            "owner": "jhipster",
+            "repo": "jhipster-lite",
+            "language": "Java"
+        },
+        {
+            "owner": "vaadin",
+            "repo": "flow-components",
+            "language": "Java"
+        },
+        {
+            "owner": "getsentry",
+            "repo": "sentry-java",
+            "language": "Java"
+        },
+        {
+            "owner": "wiremock",
+            "repo": "wiremock",
+            "language": "Java"
+        },
+        {
+            "owner": "Consensys",
+            "repo": "teku",
+            "language": "Java"
+        },
+        {
+            "owner": "operator-framework",
+            "repo": "java-operator-sdk",
+            "language": "Java"
+        },
+        {
+            "owner": "commons-app",
+            "repo": "apps-android-commons",
+            "language": "Java"
+        },
+        {
+            "owner": "JabRef",
+            "repo": "jabref",
+            "language": "Java"
+        },
+        {
+            "owner": "FabricMC",
+            "repo": "fabric",
+            "language": "Java"
+        },
+        {
+            "owner": "SpongePowered",
+            "repo": "SpongeAPI",
+            "language": "Java"
+        },
+        {
+            "owner": "jMonkeyEngine",
+            "repo": "jmonkeyengine",
+            "language": "Java"
+        },
+        {
+            "owner": "eclipse",
+            "repo": "jkube",
+            "language": "Java"
+        },
+        {
+            "owner": "assertj",
+            "repo": "assertj",
+            "language": "Java"
+        },
+        {
+            "owner": "quarkusio",
+            "repo": "quarkus",
+            "language": "Java"
+        },
+        {
+            "owner": "sakaiproject",
+            "repo": "sakai",
+            "language": "Java"
+        },
+        {
+            "owner": "PaperMC",
+            "repo": "Paper",
+            "language": "Java"
+        },
+        {
+            "owner": "aws",
+            "repo": "aws-sdk-java-v2",
+            "language": "Java"
+        },
+        {
+            "owner": "OpenNMS",
+            "repo": "opennms",
+            "language": "Java"
+        },
+        {
+            "owner": "eclipse-rdf4j",
+            "repo": "rdf4j",
+            "language": "Java"
+        },
+        {
+            "owner": "VazkiiMods",
+            "repo": "Botania",
+            "language": "Java"
+        },
+        {
+            "owner": "INRIA",
+            "repo": "spoon",
+            "language": "Java"
+        },
+        {
+            "owner": "dhis2",
+            "repo": "dhis2-core",
+            "language": "Java"
+        },
+        {
+            "owner": "odpi",
+            "repo": "egeria",
+            "language": "Java"
+        },
+        {
+            "owner": "Adyen",
+            "repo": "adyen-java-api-library",
+            "language": "Java"
+        },
+        {
+            "owner": "apache",
+            "repo": "maven",
+            "language": "Java"
+        },
+        {
+            "owner": "jashkenas",
+            "repo": "coffeescript",
+            "language": "Javascript"
+        },
+        {
+            "owner": "babel",
+            "repo": "babel",
+            "language": "Javascript"
+        },
+        {
+            "owner": "Leaflet",
+            "repo": "Leaflet",
+            "language": "Javascript"
+        },
+        {
+            "owner": "parse-community",
+            "repo": "Parse-SDK-JS",
+            "language": "Javascript"
+        },
+        {
+            "owner": "meteor",
+            "repo": "meteor",
+            "language": "Javascript"
+        },
+        {
+            "owner": "matrix-org",
+            "repo": "matrix-js-sdk",
+            "language": "Javascript"
+        },
+        {
+            "owner": "GoogleChrome",
+            "repo": "workbox",
+            "language": "Javascript"
+        },
+        {
+            "owner": "cucumber",
+            "repo": "cucumber-js",
+            "language": "Javascript"
+        },
+        {
+            "owner": "aws",
+            "repo": "aws-sdk-js-v3",
+            "language": "Javascript"
+        },
+        {
+            "owner": "aws-amplify",
+            "repo": "amplify-js",
+            "language": "Javascript"
+        },
+        {
+            "owner": "kubernetes-client",
+            "repo": "javascript",
+            "language": "Javascript"
+        },
+        {
+            "owner": "jquery",
+            "repo": "jquery",
+            "language": "Javascript"
+        },
+        {
+            "owner": "moment",
+            "repo": "moment",
+            "language": "Javascript"
+        },
+        {
+            "owner": "date-fns",
+            "repo": "date-fns",
+            "language": "Javascript"
+        },
+        {
+            "owner": "jashkenas",
+            "repo": "underscore",
+            "language": "Javascript"
+        },
+        {
+            "owner": "opal",
+            "repo": "opal",
+            "language": "Javascript"
+        },
+        {
+            "owner": "eslint",
+            "repo": "eslint",
+            "language": "Javascript"
+        },
+        {
+            "owner": "karma-runner",
+            "repo": "karma",
+            "language": "Javascript"
+        },
+
+        {
+            "owner": "jquery",
+            "repo": "jquery-ui",
+            "language": "Javascript"
+        },
+        {
+            "owner": "getsentry",
+            "repo": "sentry-javascript",
+            "language": "Javascript"
+        },
+        {
+            "owner": "shaka-project",
+            "repo": "shaka-player",
+            "language": "Javascript"
+        },
+        {
+            "owner": "open-telemetry",
+            "repo": "opentelemetry-js",
+            "language": "Javascript"
+        },
+        {
+            "owner": "nodejs",
+            "repo": "node",
+            "language": "Javascript"
+        },
+        {
+            "owner": "plotly",
+            "repo": "dash",
+            "language": "Javascript"
+        },
+        {
+            "owner": "DataDog",
+            "repo": "dd-trace-js",
+            "language": "Javascript"
+        },
+        {
+            "owner": "jestjs",
+            "repo": "jest",
+            "language": "Javascript"
+        },
+        {
+            "owner": "npm",
+            "repo": "cli",
+            "language": "Javascript"
+        },
+        {
+            "owner": "algolia",
+            "repo": "algoliasearch-client-javascript",
+            "language": "Javascript"
+        },
+        {
+            "owner": "firebase",
+            "repo": "firebase-js-sdk",
+            "language": "Javascript"
+        },
+        {
+            "owner": "TheAlgorithms",
+            "repo": "JavaScript",
+            "language": "Javascript"
+        },
+        {
+            "owner": "ReactiveX",
+            "repo": "rxjs",
+            "language": "Javascript"
+        },
+        {
+            "owner": "exercism",
+            "repo": "javascript",
+            "language": "Javascript"
+        },
+        {
+            "owner": "rome",
+            "repo": "tools",
+            "language": "Javascript"
+        },
+        {
+            "owner": "sinonjs",
+            "repo": "sinon",
+            "language": "Javascript"
+        },
+        {
+            "owner": "microsoft",
+            "repo": "TypeScript",
+            "language": "Javascript"
+        },
+        {
+            "owner": "josdejong",
+            "repo": "mathjs",
+            "language": "Javascript"
+        },
+        {
+            "owner": "antvis",
+            "repo": "G6",
+            "language": "Javascript"
+        },
+        {
+            "owner": "microsoftgraph",
+            "repo": "msgraph-sdk-javascript",
+            "language": "Javascript"
+        },
+        {
+            "owner": "ramda",
+            "repo": "ramda",
+            "language": "Javascript"
+        },
+        {
+            "owner": "ipfs",
+            "repo": "js-ipfs",
+            "language": "Javascript"
+        },
+        {
+            "owner": "matrix-org",
+            "repo": "matrix-react-sdk",
+            "language": "Javascript"
+        },
+        {
+            "owner": "electron",
+            "repo": "electron",
+            "language": "Javascript"
+        },
+        {
+            "owner": "Azure",
+            "repo": "azure-sdk-for-python",
+            "language": "Python"
+        },
+        {
+            "owner": "cookiecutter",
+            "repo": "cookiecutter",
+            "language": "Python"
+        },
+        {
+            "owner": "secdev",
+            "repo": "scapy",
+            "language": "Python"
+        },
+        {
+            "owner": "pypa",
+            "repo": "pipenv",
+            "language": "Python"
+        },
+        {
+            "owner": "explosion",
+            "repo": "spaCy",
+            "language": "Python"
+        },
+        {
+            "owner": "vinta",
+            "repo": "awesome-python",
+            "language": "Python"
+        },
+        {
+            "owner": "facebookresearch",
+            "repo": "fairseq",
+            "language": "Python"
+        },
+        {
+            "owner": "open-telemetry",
+            "repo": "opentelemetry-python",
+            "language": "Python"
+        },
+        {
+            "owner": "pytorch",
+            "repo": "pytorch",
+            "language": "Python"
+        },
+        {
+            "owner": "aws-powertools",
+            "repo": "powertools-lambda-python",
+            "language": "Python"
+        },
+        {
+            "owner": "hyperledger",
+            "repo": "aries-cloudagent-python",
+            "language": "Python"
+        },
+        {
+            "owner": "Esri",
+            "repo": "arcgis-python-api",
+            "language": "Python"
+        },
+        {
+            "owner": "geekcomputers",
+            "repo": "Python",
+            "language": "Python"
+        },
+        {
+            "owner": "snowflakedb",
+            "repo": "snowflake-connector-python",
+            "language": "Python"
+        },
+        {
+            "owner": "sympy",
+            "repo": "sympy",
+            "language": "Python"
+        },
+        {
+            "owner": "geopandas",
+            "repo": "geopandas",
+            "language": "Python"
+        },
+        {
+            "owner": "plotly",
+            "repo": "dash",
+            "language": "Python"
+        },
+        {
+            "owner": "psf",
+            "repo": "black",
+            "language": "Python"
+        },
+        {
+            "owner": "bazelbuild",
+            "repo": "rules_python",
+            "language": "Python"
+        },
+        {
+            "owner": "wemake-services",
+            "repo": "wemake-python-styleguide",
+            "language": "Python"
+        },
+        {
+            "owner": "getsentry",
+            "repo": "sentry-python",
+            "language": "Python"
+        },
+        {
+            "owner": "pyenv",
+            "repo": "pyenv",
+            "language": "Python"
+        },
+        {
+            "owner": "exercism",
+            "repo": "python",
+            "language": "Python"
+        },
+        {
+            "owner": "microsoft",
+            "repo": "pyright",
+            "language": "Python"
+        },
+        {
+            "owner": "open-telemetry",
+            "repo": "opentelemetry-python-contrib",
+            "language": "Python"
+        },
+        {
+            "owner": "kivy",
+            "repo": "python-for-android",
+            "language": "Python"
+        },
+        {
+            "owner": "python",
+            "repo": "mypy",
+            "language": "Python"
+        },
+        {
+            "owner": "GoogleCloudPlatform",
+            "repo": "python-docs-samples",
+            "language": "Python"
+        },
+        {
+            "owner": "redis",
+            "repo": "redis-py",
+            "language": "Python"
+        },
+        {
+            "owner": "avinashkranjan",
+            "repo": "Amazing-Python-Scripts",
+            "language": "Python"
+        },
+        {
+            "owner": "mongodb",
+            "repo": "mongo-python-driver",
+            "language": "Python"
+        },
+        {
+            "owner": "TheAlgorithms",
+            "repo": "Python",
+            "language": "Python"
+        },
+        {
+            "owner": "cjolowicz",
+            "repo": "cookiecutter-hypermodern-python",
+            "language": "Python"
+        }
+    ]
+}

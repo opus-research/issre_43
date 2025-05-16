@@ -1,0 +1,132 @@
+{
+  "CONTRIBUTING": {
+    "0664fdecbf93cbe5961133dfb851016e1fc7da2c": {
+      "guidelines": [
+        {
+          "title": "Code Style",
+          "description": "Adhere to the project's coding standards and style guidelines. This ensures consistency and readability across the codebase, making it easier for all contributors to understand and work with the code."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write clear and concise commit messages that accurately describe the changes made. Well-written commit messages help maintain a clear project history and facilitate easier code reviews and troubleshooting."
+        },
+        {
+          "title": "Pull Request Process",
+          "description": "Follow the established process for submitting pull requests, including getting reviews from other team members. This ensures that all changes are properly reviewed and discussed before being merged, maintaining the quality and integrity of the codebase."
+        },
+        {
+          "title": "Testing",
+          "description": "Thoroughly test your changes before submitting them. This includes writing unit tests and ensuring that all existing tests pass. Proper testing helps catch bugs early and maintains the overall stability of the project."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Report issues using the project's issue tracker, providing as much detail as possible. Detailed bug reports help maintainers quickly understand and address problems, improving the project's reliability and user experience."
+        },
+        {
+          "title": "Communication",
+          "description": "Communicate proactively with the project's maintainers and other contributors. Good communication helps coordinate efforts, resolve conflicts, and ensure that everyone is on the same page regarding project direction and priorities."
+        },
+        {
+          "title": "Respect and Etiquette",
+          "description": "Treat all contributors respectfully and follow the project's code of conduct. Maintaining a positive and welcoming environment encourages more people to contribute and fosters a collaborative atmosphere."
+        }
+      ]
+    },
+    "35493b3c89212049ad2284a618b6f3602c9bb57b": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "Adhere to the project's code of conduct which fosters a positive and inclusive community. This ensures respectful interactions amongst contributors."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Report bugs or request features using the issue tracker. Detailed and clear issues help maintainers understand and address problems efficiently."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Submit pull requests for proposed changes. This allows maintainers to review, discuss, and integrate contributions systematically."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write clear and descriptive commit messages. This practice improves the project's history and helps others understand the changes."
+        },
+        {
+          "title": "Coding Standards",
+          "description": "Follow the project's coding style and standards. Consistent code style ensures readability and maintainability across different contributions."
+        },
+        {
+          "title": "Testing",
+          "description": "Test your changes thoroughly before submission. Ensuring changes do not break existing functionality maintains project stability."
+        },
+        {
+          "title": "Documentation",
+          "description": "Update or add documentation for your changes. Comprehensive documentation helps users and future contributors understand the project better."
+        },
+        {
+          "title": "Community Participation",
+          "description": "Engage with the community through discussions and reviews. Active participation fosters collaboration and improves the project's quality."
+        }
+      ]
+    },
+    "a5d4e37880857a9146a1abe9f30e6051a1b46ce4": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "Respect all community members and maintain a welcoming environment. This ensures a positive experience for all contributors."
+        },
+        {
+          "title": "Reporting Issues",
+          "description": "Provide detailed information when reporting an issue, including steps to reproduce the issue and your environment details. This helps maintainers understand and address the problem efficiently."
+        },
+        {
+          "title": "Code Contributions",
+          "description": "Follow the coding standards and guidelines specified by the project. This ensures consistency and quality across the codebase."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Provide a clear description of the changes made and ensure the code is well-tested. This aids in the review process and helps prevent issues in the codebase."
+        },
+        {
+          "title": "Documentation",
+          "description": "Update documentation to reflect any changes made in code or features. This ensures the documentation remains relevant and useful for all users."
+        },
+        {
+          "title": "Testing",
+          "description": "Write tests for new features or bug fixes to ensure they work as expected. This maintains the stability and reliability of the project."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write clear and descriptive commit messages. This helps in understanding the history and purpose of changes made to the project."
+        }
+      ]
+    },
+    "ed9904ed2db3fcdfdfd8517136c7a12c3f38471e": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "All contributors must adhere to a code of conduct to maintain a positive and inclusive community. This typically includes respectful communication and collaboration practices."
+        },
+        {
+          "title": "Bug Reporting",
+          "description": "Instructions are provided for reporting bugs, including necessary information such as environment, steps to reproduce the issue, and expected versus actual behavior. Proper bug reporting ensures that issues can be addressed efficiently."
+        },
+        {
+          "title": "Feature Requests",
+          "description": "Guidelines on how to request new features, including the need to describe the problem the feature solves and any potential impact on existing functionality. This helps maintainers prioritize and evaluate the feasibility of new features."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Details on how to submit pull requests, including branching strategy, coding standards, and necessary reviews. This ensures the quality and consistency of the codebase."
+        },
+        {
+          "title": "Testing",
+          "description": "Requirements for writing and running tests before submitting changes. Proper testing ensures the reliability of the software."
+        },
+        {
+          "title": "Documentation Updates",
+          "description": "Encouragement to update documentation alongside any code changes to ensure users have the latest information. Updated documentation is crucial for usability and adoption."
+        }
+      ]
+    }
+  }
+}

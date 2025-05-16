@@ -1,0 +1,43 @@
+{
+  "CONTRIBUTING": {
+    "7006240e21914883a02d60b2626356f42f09d2ab": {
+      "guidelines": []
+    },
+    "8731b9fa0f06308fadad080c3b4e7d9529e5b2a0": {
+      "guidelines": [
+        {
+          "title": "Code Style",
+          "description": "Contributors must adhere to the project's coding standards for consistency and readability. This includes following specific naming conventions, indentation rules, and other stylistic guidelines."
+        },
+        {
+          "title": "Pull Request Process",
+          "description": "Contributions should be made through pull requests. Each pull request must be reviewed and approved by at least one other contributor to ensure code quality and compatibility. Specific steps for creating and submitting a pull request are provided."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "When reporting issues, contributors must provide detailed information including steps to reproduce the problem, expected behavior, and actual behavior. This helps maintainers address the issue more effectively."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Commit messages should be clear and descriptive, summarizing the changes made and the reasons for those changes. This helps in understanding the history and rationale of modifications over time."
+        },
+        {
+          "title": "Branching Model",
+          "description": "Contributors should follow the specified branching model, such as creating a new feature branch or fixing a bug in a dedicated branch. This approach helps keep the main branch stable and organized."
+        },
+        {
+          "title": "Testing",
+          "description": "All new features and bug fixes should include tests to verify their functionality. Contributors are required to write unit tests and integration tests where applicable to ensure code reliability."
+        },
+        {
+          "title": "Documentation",
+          "description": "Any new features or changes should be accompanied by appropriate documentation updates. This ensures that all contributors and users are aware of new capabilities and how to use them."
+        },
+        {
+          "title": "Review Feedback",
+          "description": "Contributors should be open to and actively incorporate feedback from code reviews. This collaborative approach improves the quality of the codebase and fosters a healthy development environment."
+        }
+      ]
+    }
+  }
+}

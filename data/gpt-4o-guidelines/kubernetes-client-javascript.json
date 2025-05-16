@@ -1,0 +1,84 @@
+{
+  "CONTRIBUTING": {
+    "47a40a3d55d53b9b8224b519782b704eba485ec2": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "Be respectful and considerate in your interactions. This is important to maintain a welcoming atmosphere in the project community."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Report issues using the provided templates and provide detailed information. Clear and structured issue reports help in addressing problems efficiently."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Submit pull requests with clear descriptions and necessary tests. Providing thorough details and validations helps in efficient code reviews and integration."
+        },
+        {
+          "title": "Coding Standards",
+          "description": "Follow the specified coding standards and style guidelines. Consistent coding practices ensure readability and maintainability of the codebase."
+        },
+        {
+          "title": "Documentation",
+          "description": "Update documentation alongside code changes. Keeping documentation up-to-date is crucial for users and contributors to understand the project's functionality and usage."
+        },
+        {
+          "title": "Review Process",
+          "description": "Participate in code reviews and provide constructive feedback. Collaborative code reviews help in maintaining code quality and collective learning."
+        },
+        {
+          "title": "Testing",
+          "description": "Write and run tests to validate your code changes. Ensuring that new features and bug fixes are tested prevents regressions and maintains stability."
+        },
+        {
+          "title": "Branch Management",
+          "description": "Use descriptive branch names and follow branching strategies. Organized branching helps in managing different development stages and features effectively."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write clear and concise commit messages. Informative commit messages facilitate tracking changes and understanding the project history."
+        },
+        {
+          "title": "Contribution Scope",
+          "description": "Ensure your contributions align with the project goals and roadmap. Aligning with the project's objectives helps in coherent development and avoids redundant efforts."
+        }
+      ]
+    },
+    "a7b0347a5997c181ceccee1a213f4b220f468561": {
+      "guidelines": [
+        {
+          "title": "Code Style",
+          "description": "Maintain consistency in code style by following the project's code style guidelines. This ensures readability and maintainability of the codebase."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write clear and concise commit messages. Good commit messages facilitate code review and tracking of changes."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Submit pull requests with a clear title and detailed description of the changes. Properly documented pull requests make it easier for maintainers to review and merge contributions."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Report issues by filling out the issue template with as much detail as possible. Detailed issue reports help maintainers quickly understand and address the problem."
+        },
+        {
+          "title": "Code Reviews",
+          "description": "Participate in code reviews by providing constructive feedback. Code reviews are essential for maintaining code quality and sharing knowledge within the community."
+        },
+        {
+          "title": "Testing",
+          "description": "Write tests for new features and bug fixes to ensure code reliability. Testing helps catch issues early and ensures that the code works as expected."
+        },
+        {
+          "title": "Documentation",
+          "description": "Contribute to and maintain project documentation. Comprehensive documentation helps new developers get up to speed and makes it easier to use the project."
+        },
+        {
+          "title": "Respectful Communication",
+          "description": "Engage in respectful and professional communication with other contributors. Positive communication fosters a collaborative and inclusive community."
+        }
+      ]
+    }
+  }
+}

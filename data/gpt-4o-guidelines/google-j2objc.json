@@ -1,0 +1,44 @@
+{
+  "CONTRIBUTING": {
+    "faad8d932ec04eda3adff54b14546f83dd57499a": {
+      "guidelines": [
+        {
+          "title": "Fork the Repository",
+          "description": "Developers are advised to fork the repository to their own GitHub account before making any changes. This step ensures that developers can freely work on the project without affecting the main codebase until changes are reviewed and merged."
+        },
+        {
+          "title": "Create Branch for Feature",
+          "description": "It is recommended to create a new branch for every new feature or bug fix. This practice helps in organizing the development process and makes it easier to manage multiple tasks or features simultaneously."
+        },
+        {
+          "title": "Write Clear Commit Messages",
+          "description": "Developers should write clear and concise commit messages that accurately describe the changes made. Good commit messages improve the clarity and traceability of the project's history."
+        },
+        {
+          "title": "Submit Pull Request",
+          "description": "After implementing a feature or fixing a bug, developers should submit a pull request to the main repository. This process allows other team members to review, discuss, and integrate changes in a controlled and documented manner."
+        },
+        {
+          "title": "Code Review Participation",
+          "description": "Actively participating in code reviews is encouraged. Reviewing other developers' code helps maintain code quality, fosters collaborative learning, and ensures consistency within the project."
+        },
+        {
+          "title": "Follow Coding Standards",
+          "description": "Adhering to the project's coding standards and style guides ensures that the codebase remains clean, readable, and maintainable. Consistent coding standards help prevent bugs and make it easier for new contributors to get involved."
+        },
+        {
+          "title": "Write Unit Tests",
+          "description": "Writing unit tests for new features and bug fixes is essential. Unit tests help verify the functionality of the code and prevent future changes from introducing new bugs. It also ensures robustness and reliability of the code."
+        },
+        {
+          "title": "Update Documentation",
+          "description": "Contributors should update the project's documentation to reflect any changes they make. This includes updating existing documentation and adding new documents as necessary, ensuring that users and other developers have the latest information."
+        },
+        {
+          "title": "Respect Project Timelines",
+          "description": "Developers are advised to be mindful of the project's timelines and deliverable deadlines. Timely contributions help maintain the project's momentum and avoid bottlenecks in the development process."
+        }
+      ]
+    }
+  }
+}

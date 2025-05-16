@@ -1,0 +1,244 @@
+{
+  "CONTRIBUTING": {
+    "09cfa1d4d0943a140ce95538abc0e734056e00c6": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "This guideline emphasizes the importance of respecting all community members and maintaining a welcoming environment. It outlines expected and unacceptable behavior, reinforcing the need for professionalism and inclusivity."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "This guideline provides instructions for reporting bugs or suggesting features. It details the necessary information required to submit a comprehensive and helpful report, aiming to streamline issue tracking and resolution."
+        },
+        {
+          "title": "Pull Request Process",
+          "description": "This guideline describes the steps for submitting pull requests, including forking the repository, creating a feature branch, and ensuring that all tests pass. It ensures code quality and facilitates smooth integration of changes."
+        },
+        {
+          "title": "Coding Standards",
+          "description": "This guideline outlines the coding conventions and style guides that contributors must follow. It promotes consistency in the codebase, making it easier for all contributors to understand and maintain the code."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "This guideline specifies the format and content for commit messages. Clear and descriptive commit messages are essential for understanding the history of changes and the reasoning behind them."
+        },
+        {
+          "title": "Contribution Agreements",
+          "description": "This guideline discusses the legal agreements required for contributions, such as signing a Contributor License Agreement (CLA). It ensures that contributions are legally sound and protect the project's intellectual property."
+        },
+        {
+          "title": "Testing Contributions",
+          "description": "This guideline stresses the importance of writing and running tests for new contributions. It highlights the need for unit tests, integration tests, and ensuring that existing tests are not broken by new changes."
+        },
+        {
+          "title": "Documentation Updates",
+          "description": "This guideline emphasizes the need to update documentation alongside code changes. Accurate and up-to-date documentation is crucial for user and developer understanding and helps new contributors onboard more easily."
+        },
+        {
+          "title": "Review Process",
+          "description": "This guideline details the code review process, including who will review the code and what criteria will be used. Thorough reviews help catch potential issues and improve the overall quality of the project."
+        },
+        {
+          "title": "Branching Strategy",
+          "description": "This guideline explains the repository's branching strategy, such as naming conventions and purposes for different branches (e.g., master, develop, feature). A well-defined strategy helps in managing the development workflow efficiently."
+        }
+      ]
+    },
+    "2e02ebd00edea8f9756f34675ce86046955f72c4": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "All contributors are required to adhere to a code of conduct that promotes a positive and inclusive community. This includes being respectful, considerate, and collaborative during interactions. It is important because it ensures a welcoming environment for all participants."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Contributors should report any issues they encounter by opening a new issue on the GitHub repository. This helps maintainers keep track of known problems and prioritize fixes. Accurate and detailed reporting is critical for quick resolution."
+        },
+        {
+          "title": "Feature Requests",
+          "description": "To propose new features, contributors should open a new issue or discussion thread outlining the feature and its potential benefits. This allows the community and maintainers to review and discuss the feasibility and implementation. Clear communication ensures alignment and resource allocation."
+        },
+        {
+          "title": "Submitting Pull Requests",
+          "description": "Contributors should adhere to guidelines for submitting pull requests, including branching, committing messages, and ensuring that the code works properly. This is crucial to maintain code quality, readability, and preventing conflicts when merging changes."
+        },
+        {
+          "title": "Testing",
+          "description": "Before submitting code, contributors must ensure their changes pass all tests and do not introduce new issues. Contributors should add tests for new features or resolve bugs. This is key to maintaining reliability and stability in the codebase."
+        },
+        {
+          "title": "Documentation",
+          "description": "Contributors should provide comprehensive documentation for any new code, feature, or change they introduce. This ensures that future contributors and users can understand and use the project effectively. Good documentation is essential for project longevity and ease of use."
+        },
+        {
+          "title": "Code Style",
+          "description": "Adherence to the project\u2019s code style guidelines is mandatory for all contributions. This ensures consistency and readability across the codebase, making maintenance and collaboration easier. Consistent code style helps prevent conflicts and eases onboarding for new contributors."
+        }
+      ]
+    },
+    "5dcbb5e510a2ca3552ac2bfced8fcddf39055913": {
+      "guidelines": [
+        {
+          "title": "Fork the Repository",
+          "description": "To contribute to the project, you must first fork the repository on GitHub to create your own copy of the project. This ensures that you can make changes without affecting the original codebase."
+        },
+        {
+          "title": "Clone Your Fork",
+          "description": "Clone your forked repository to your local machine using a Git command. This allows you to work on the project locally and test your changes before contributing."
+        },
+        {
+          "title": "Create a Branch",
+          "description": "Create a new branch for your changes, rather than making changes directly on the main branch. This keeps your contributions organized and makes it easier to manage different features or bug fixes."
+        },
+        {
+          "title": "Make Meaningful Commits",
+          "description": "Make clear, concise, and descriptive commit messages. Each commit should encapsulate a single piece of functionality or a specific change, aiding in tracking and reviewing the history of modifications."
+        },
+        {
+          "title": "Write Tests",
+          "description": "Write tests for the new features or bug fixes you are introducing. Tests should cover different scenarios to ensure that your code is robust and maintainable."
+        },
+        {
+          "title": "Run Tests Locally",
+          "description": "Ensure that all tests, both existing and new, pass locally before you push your changes. This step helps maintain the integrity of the project by catching issues early."
+        },
+        {
+          "title": "Submit a Pull Request",
+          "description": "After pushing your branch to your forked repository on GitHub, submit a pull request to the original repository. Provide a clear description of your changes and reference any relevant issues or discussion points."
+        },
+        {
+          "title": "Respond to Feedback",
+          "description": "Be prepared to engage with maintainers or other contributors during the review process. Respond to feedback, make necessary changes, and update your pull request accordingly."
+        },
+        {
+          "title": "Follow Coding Style",
+          "description": "Adhere to the project's coding style and conventions. Consistent code formatting and structure improve readability and maintainability for all contributors."
+        },
+        {
+          "title": "Update Documentation",
+          "description": "If your contribution impacts the documentation, ensure that it is updated accordingly. Clear and comprehensive documentation is crucial for users and other developers to understand the project."
+        }
+      ]
+    },
+    "86ca43f21115d40538421ba8e59101ff7aa87a55": {
+      "guidelines": [
+        {
+          "title": "Code of Conduct",
+          "description": "Adhere to the project's code of conduct to ensure a welcoming and respectful environment for all contributors."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Provide clear, succinct, and detailed information when reporting issues to help maintainers understand and address the problem effectively."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "Make sure pull requests are focused on a single issue or feature and include clear descriptions to facilitate the review process."
+        },
+        {
+          "title": "Discussion and Communication",
+          "description": "Engage in respectful and constructive discussions, whether on GitHub or other designated communication channels, to foster collaborative problem-solving."
+        },
+        {
+          "title": "Code Style and Standards",
+          "description": "Follow the project's coding standards and style guidelines to maintain consistency and readability across the codebase."
+        },
+        {
+          "title": "Testing",
+          "description": "Include thorough tests for new features and bug fixes to ensure code reliability and prevent regressions."
+        },
+        {
+          "title": "Documentation",
+          "description": "Provide or update relevant documentation for any new code or features to assist other developers in understanding and using them."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write clear and concise commit messages that accurately describe the changes made, facilitating better project history tracking."
+        },
+        {
+          "title": "Review Process",
+          "description": "Participate in code reviews, offering constructive feedback and being open to receiving it, to improve the overall quality of the codebase."
+        }
+      ]
+    },
+    "88208d366b81ab4102462bb077f1ff07159baf54": {
+      "guidelines": [
+        {
+          "title": "Fork the Repository",
+          "description": "To contribute to the project, first fork the repository to your own GitHub account. This allows you to work on your own copy of the repo without affecting the main repository."
+        },
+        {
+          "title": "Create a Branch",
+          "description": "Create a new branch for your feature or bug fix. This keeps your work separate from the master branch until it is ready to be merged."
+        },
+        {
+          "title": "Write Clear Commit Messages",
+          "description": "Commit messages should be clear and descriptive. This helps in understanding the changes made and the reason behind them when reviewing the project history."
+        },
+        {
+          "title": "Submit a Pull Request",
+          "description": "Once your changes are ready, submit a pull request to the main repository. This notifies the project maintainers about your changes so they can be reviewed and potentially merged."
+        },
+        {
+          "title": "Document Your Changes",
+          "description": "Ensure that any changes or new features you add are properly documented. This helps other developers understand how to use them."
+        },
+        {
+          "title": "Follow Coding Standards",
+          "description": "Adhere to the coding standards defined by the project. Consistent coding styles improve the readability and maintainability of the code."
+        },
+        {
+          "title": "Run Tests",
+          "description": "Before submitting a pull request, run all tests to make sure your changes do not introduce new bugs. This helps maintain the integrity of the project."
+        },
+        {
+          "title": "Participate in Code Review",
+          "description": "Be responsive and participate in the code review process. Address any feedback provided to improve the quality of the code before it is merged."
+        },
+        {
+          "title": "Respect Contribution Limits",
+          "description": "Be mindful of the project's contribution limits, which might include guidelines on the number or size of pull requests, to ensure a manageable workload for maintainers."
+        }
+      ]
+    },
+    "d8f5fe7d9be6f412a1a512ade67b0f9281789f76": {
+      "guidelines": [
+        {
+          "title": "Code Standards",
+          "description": "All contributions should adhere to the project's code standards, including specific formatting, style, and best practices outlined in the documentation."
+        },
+        {
+          "title": "Documentation Updates",
+          "description": "Any code changes must be accompanied by relevant updates to the documentation to ensure consistency and clarity."
+        },
+        {
+          "title": "Testing",
+          "description": "Contributors are required to write tests for new features or changes to ensure code quality and prevent regressions."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Before contributing, developers should check for existing issues and follow the project's template when reporting bugs or suggesting features."
+        },
+        {
+          "title": "Pull Request Process",
+          "description": "Contributions should be submitted via pull requests, which must follow the provided guidelines, including branch naming conventions and detailed descriptions."
+        },
+        {
+          "title": "Code Review",
+          "description": "All pull requests will undergo code reviews, and contributors should be prepared to make necessary changes as per reviewers' feedback."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Commit messages should be clear and descriptive, following the project's guidelines to ensure a readable git history."
+        },
+        {
+          "title": "Community Engagement",
+          "description": "Contributors are encouraged to engage with the community through discussion boards or mailing lists, fostering collaboration and communication."
+        },
+        {
+          "title": "Licensing",
+          "description": "Any contributions must comply with the project's licensing terms, and contributors must ensure their work is properly licensed."
+        }
+      ]
+    }
+  }
+}

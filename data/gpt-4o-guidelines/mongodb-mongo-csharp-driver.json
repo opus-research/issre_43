@@ -1,0 +1,84 @@
+{
+  "CONTRIBUTING": {
+    "8d50296287442e326d3e4159e7b90e7c375b2f11": {
+      "guidelines": [
+        {
+          "title": "Code Of Conduct",
+          "description": "This guideline outlines the expected behavior from all contributors to ensure a respectful and inclusive project environment."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "Contributors should follow the provided template and guidelines when reporting issues to ensure clarity and consistency."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "This guideline describes how to properly submit pull requests, including necessary checks, descriptions, and adherence to coding standards."
+        },
+        {
+          "title": "Branching Model",
+          "description": "Contributors are advised to follow the specific branching model outlined in the document to maintain orderly and manageable codebase."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Describes the format and content expectations for commit messages to ensure clear and informative changes in the project's history."
+        },
+        {
+          "title": "Code Style",
+          "description": "Contributors are expected to adhere to the defined code style guidelines to maintain consistency and readability across the codebase."
+        },
+        {
+          "title": "Review Process",
+          "description": "Outlines the review process that pull requests undergo, including who reviews them and how feedback should be addressed."
+        },
+        {
+          "title": "Testing",
+          "description": "This guideline emphasizes the importance of writing and running tests to ensure new contributions do not introduce bugs."
+        },
+        {
+          "title": "Documentation",
+          "description": "Encourages contributors to update or create documentation as necessary when making changes to ensure the project stays well-documented."
+        }
+      ]
+    },
+    "f7d3598dc11ca9806e5c56bf514df2215fbe6e25": {
+      "guidelines": [
+        {
+          "title": "Code Style",
+          "description": "Developers must adhere to the project's coding style to maintain consistency across the codebase. This guideline is crucial for readability and easier maintenance of the project."
+        },
+        {
+          "title": "Testing",
+          "description": "Contributions should include tests to ensure new features or bug fixes do not break existing functionality. This helps in maintaining the quality and reliability of the project."
+        },
+        {
+          "title": "Issue Reporting",
+          "description": "When reporting issues, provide detailed information, including steps to reproduce the bug, expected behavior, and screenshots if applicable. Good issue reporting helps developers understand and address problems more efficiently."
+        },
+        {
+          "title": "Pull Requests",
+          "description": "When submitting pull requests, include a clear description of the changes and reference any related issues. This process ensures that the maintainers understand the purpose and scope of the changes."
+        },
+        {
+          "title": "Branch Naming",
+          "description": "Use descriptive branch names that reflect the feature or fix being implemented. Clear naming conventions help in managing and reviewing changes."
+        },
+        {
+          "title": "Commit Messages",
+          "description": "Write meaningful commit messages that describe the changes made. Good commit messages are essential for tracking the history and context of changes."
+        },
+        {
+          "title": "Documentation",
+          "description": "Update documentation to reflect any changes made in the codebase. Accurate documentation helps users and other developers understand how to use and contribute to the project."
+        },
+        {
+          "title": "Code Reviews",
+          "description": "Participate in code reviews to provide feedback and suggestions. Code reviews are a collaborative practice that improves code quality and knowledge sharing."
+        },
+        {
+          "title": "Community Engagement",
+          "description": "Actively engage with the community through discussions, issue comments, and pull requests. This engagement fosters a collaborative environment and helps grow the project."
+        }
+      ]
+    }
+  }
+}
