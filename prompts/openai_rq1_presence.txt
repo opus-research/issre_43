@@ -1,0 +1,13 @@
+You will receive:
+1. A list of standardized contribution guidelines, each with a short description.
+2. A dictionary of multiple projects. Each project contains a list of guidelines extracted from its CONTRIBUTING.md file.
+
+Your task:
+- For each project, go through the standardized list of guidelines.
+- For each guideline, check if it is present in the project's list of guidelines.
+- Use semantic understanding and synonyms where appropriate (e.g., "Write Automated Tests" is present if the project includes "Write Tests for New Features").
+- Return a JSON array where each item is an object with:
+  - The project name (as a key)
+  - A dictionary of standardized guideline names as keys, with values "yes" or "no"
+
+Only output the JSON array. Do not include explanations or additional text.

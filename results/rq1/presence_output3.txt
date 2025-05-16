@@ -1,0 +1,686 @@
+[
+    {
+        "matrix-org/matrix-react-sdk": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "electron/electron": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "highlightjs/highlight.js": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "emberjs/ember.js": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "Azure/azure-sdk-for-python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "cookiecutter/cookiecutter": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "secdev/scapy": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "yes",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "pypa/pipenv": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "explosion/spaCy": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "yes",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "vinta/awesome-python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "facebookresearch/fairseq": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "no",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "open-telemetry/opentelemetry-python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "pytorch/pytorch": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "aws-powertools/powertools-lambda-python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "yes",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "hyperledger/aries-cloudagent-python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "Esri/arcgis-python-api": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "no",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "geekcomputers/Python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "no",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "snowflakedb/snowflake-connector-python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "no",
+            "Document Your Changes": "yes",
+            "Report Issues": "no",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "no",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "sympy/sympy": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "no",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "no",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "no",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "no",
+            "Update Documentation": "no",
+            "Use Clear and Descriptive Commit Messages": "no",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "geopandas/geopandas": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "psf/black": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "bazelbuild/rules_python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "wemake-services/wemake-python-styleguide": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "yes",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "getsentry/sentry-python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "pyenv/pyenv": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "no",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "no",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "no",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "no",
+            "Write Automated Tests": "no",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "exercism/python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "microsoft/pyright": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "no",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "no",
+            "Document Your Changes": "yes",
+            "Report Issues": "no",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "no",
+            "Update Documentation": "no",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "no",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "open-telemetry/opentelemetry-python-contrib": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "kivy/python-for-android": {
+            "Submit Pull Requests": "no",
+            "Fork and Clone the Repository": "no",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "no",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "no",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "no",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "no",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "python/mypy": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "yes",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "GoogleCloudPlatform/python-docs-samples": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "redis/redis-py": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "no",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "avinashkranjan/Amazing-Python-Scripts": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "no",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "mongodb/mongo-python-driver": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "no",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "no",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "no",
+            "Use Clear and Descriptive Commit Messages": "no",
+            "Write Automated Tests": "no",
+            "Engage with Community": "no"
+        }
+    },
+    {
+        "TheAlgorithms/Python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "yes",
+            "Code of Conduct": "yes",
+            "Review and Address Feedback": "yes",
+            "Document Your Changes": "yes",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "yes",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "yes"
+        }
+    },
+    {
+        "cjolowicz/cookiecutter-hypermodern-python": {
+            "Submit Pull Requests": "yes",
+            "Fork and Clone the Repository": "yes",
+            "Follow Code Style Guidelines": "yes",
+            "Create Feature Branches": "yes",
+            "Sign Contributor License Agreement (CLA)": "no",
+            "Code of Conduct": "no",
+            "Review and Address Feedback": "no",
+            "Document Your Changes": "no",
+            "Report Issues": "yes",
+            "Respect Project Maintainers": "no",
+            "Engage in Code Reviews": "yes",
+            "Update Documentation": "yes",
+            "Use Clear and Descriptive Commit Messages": "yes",
+            "Write Automated Tests": "yes",
+            "Engage with Community": "no"
+        }
+    }
+]

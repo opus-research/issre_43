@@ -1,0 +1,14 @@
+Read the following document, in triple quotes:
+
+\"\"\"{doc}\"\"\"
+
+This document is part of the documentation for an open-source GitHub project. These documents often 
+contain instructions or rules (often called contribution guidelines) on how developers should 
+contribute to that specific open-source project.
+
+Summarize, in a JSON those contribution guidelines. Utilize the following template 
+{{"guidelines": [{{"title": "short title for the guideline, "description": "a description for that guideline"}}, ...]}}.
+
+Regarding the information contained in each object in the JSON array: the title field should be a 
+short title describing the guideline, and the description should be a longer description of the
+guideline, and your reasoning for why it is considered a guideline. 

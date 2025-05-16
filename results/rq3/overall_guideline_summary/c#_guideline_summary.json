@@ -1,0 +1,107 @@
+[
+  {
+    "Guideline":"Code of Conduct",
+    "Yes When Merged":290,
+    "Yes When Not Merged":300,
+    "% Yes When Merged":1.57,
+    "% Yes When Not Merged":1.94
+  },
+  {
+    "Guideline":"Create Feature Branches",
+    "Yes When Merged":307,
+    "Yes When Not Merged":310,
+    "% Yes When Merged":1.66,
+    "% Yes When Not Merged":2.01
+  },
+  {
+    "Guideline":"Document Your Changes",
+    "Yes When Merged":125,
+    "Yes When Not Merged":0,
+    "% Yes When Merged":0.68,
+    "% Yes When Not Merged":0.0
+  },
+  {
+    "Guideline":"Engage in Code Reviews",
+    "Yes When Merged":2,
+    "Yes When Not Merged":0,
+    "% Yes When Merged":0.01,
+    "% Yes When Not Merged":0.0
+  },
+  {
+    "Guideline":"Engage with Community",
+    "Yes When Merged":13,
+    "Yes When Not Merged":36,
+    "% Yes When Merged":0.07,
+    "% Yes When Not Merged":0.23
+  },
+  {
+    "Guideline":"Follow Code Style Guidelines",
+    "Yes When Merged":61,
+    "Yes When Not Merged":111,
+    "% Yes When Merged":0.33,
+    "% Yes When Not Merged":0.72
+  },
+  {
+    "Guideline":"Fork and Clone the Repository",
+    "Yes When Merged":183,
+    "Yes When Not Merged":106,
+    "% Yes When Merged":0.99,
+    "% Yes When Not Merged":0.69
+  },
+  {
+    "Guideline":"Report Issues",
+    "Yes When Merged":0,
+    "Yes When Not Merged":1,
+    "% Yes When Merged":0.0,
+    "% Yes When Not Merged":0.01
+  },
+  {
+    "Guideline":"Respect Project Maintainers",
+    "Yes When Merged":283,
+    "Yes When Not Merged":291,
+    "% Yes When Merged":1.53,
+    "% Yes When Not Merged":1.89
+  },
+  {
+    "Guideline":"Review and Address Feedback",
+    "Yes When Merged":12,
+    "Yes When Not Merged":0,
+    "% Yes When Merged":0.06,
+    "% Yes When Not Merged":0.0
+  },
+  {
+    "Guideline":"Sign Contributor License Agreement (CLA)",
+    "Yes When Merged":79,
+    "Yes When Not Merged":75,
+    "% Yes When Merged":0.43,
+    "% Yes When Not Merged":0.49
+  },
+  {
+    "Guideline":"Submit Pull Requests",
+    "Yes When Merged":312,
+    "Yes When Not Merged":310,
+    "% Yes When Merged":1.69,
+    "% Yes When Not Merged":2.01
+  },
+  {
+    "Guideline":"Update Documentation",
+    "Yes When Merged":1,
+    "Yes When Not Merged":0,
+    "% Yes When Merged":0.01,
+    "% Yes When Not Merged":0.0
+  },
+  {
+    "Guideline":"Use Clear and Descriptive Commit Messages",
+    "Yes When Merged":254,
+    "Yes When Not Merged":196,
+    "% Yes When Merged":1.37,
+    "% Yes When Not Merged":1.27
+  },
+  {
+    "Guideline":"Write Automated Tests",
+    "Yes When Merged":154,
+    "Yes When Not Merged":52,
+    "% Yes When Merged":0.83,
+    "% Yes When Not Merged":0.34
+  }
+]

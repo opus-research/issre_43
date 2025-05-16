@@ -1,0 +1,65 @@
+You will receive a JSON file containing clustered contribution guidelines for open source repositories. Each cluster groups guidelines that are similar in meaning or topic.
+
+Your task is to produce a refined, unified, and concise set of high-quality, general-purpose contribution guidelines. Follow these specific steps:
+
+### Steps to Follow:
+
+1. **Normalize Casing and Remove Duplicates:**
+   - Treat guidelines with varying casing as identical (e.g., "Adhere to the Coding Style" and "adhere to the coding style" should be considered the same).
+   - Completely remove exact duplicates.
+
+2. **Merge Similar or Overlapping Sentences:**
+   - Combine guidelines with clear semantic similarity or common meaning into a unified guideline.
+   - Examples:
+     - "Be Respectful and Collaborative", "Be Respectful and Communicative", "Be Respectful and Considerate", "Be Respectful and Constructive" → "Code of Conduct"
+     - "Automated Testing", "Automated Tests", "Create Tests", "Testing" → "Write Automated Tests"
+
+3. **Generalize or Rephrase Clearly:**
+   - When merging terms, generalize or rephrase if necessary, but do not overly broaden terms.
+   - Exclude overly broad single-word terms (e.g., "acknowledgment") if they naturally fall within a more descriptive guideline.
+   - Ensure no similar guidelines end up unnecessarily grouped in a "Miscellaneous" category.
+
+4. **Provide Explanations:**
+   - Clearly explain the meaning and purpose of each final guideline in a brief, informative sentence.
+
+5. **Count and List Original Elements:**
+   - For each final guideline, list the original elements that were merged and provide the total count of those original elements.
+
+### Output Structure:
+Provide your response in the following JSON format:
+
+{
+  "final_guidelines": [
+    {"Guideline Name": "Clear and concise explanation..."},
+    {"Another Guideline": "Another clear explanation..."},
+    ...
+  ],
+  "cluster_mapping": {
+    "Guideline Name": {
+      "number_of_elements": 4,
+      "elements": [
+        "Original Element 1",
+        "Original Element 2",
+        "Original Element 3",
+        "Original Element 4"
+      ]
+    },
+    "Another Guideline": {
+      "number_of_elements": 3,
+      "elements": [
+        "Element A",
+        "Element B",
+        "Element C"
+      ]
+    },
+    ...
+  }
+}
+
+### Important Notes:
+- Be precise in merging terms and avoid creating overly broad or vague categories.
+- Aim for clarity, consistency, and conciseness in the final guidelines.
+- Ensure all original guidelines are meaningfully grouped without unnecessary miscellaneous clusters.
+
+Respond ONLY with a valid JSON object matching the structure shown above.
+Do not include any explanation, preamble, or commentary. Only return the JSON.

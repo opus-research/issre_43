@@ -1,0 +1,357 @@
+```json
+{
+  "final_guidelines": [
+    {
+      "Submit Pull Requests": "Contributors should submit their changes through pull requests for review and integration into the main codebase."
+    },
+    {
+      "Fork and Clone the Repository": "Fork the repository and clone it locally to start making changes."
+    },
+    {
+      "Follow Code Style Guidelines": "Ensure that your code adheres to the project's coding style and guidelines."
+    },
+    {
+      "Create Feature Branches": "Develop new features or fixes in separate branches to keep the main branch stable."
+    },
+    {
+      "Sign Contributor License Agreement (CLA)": "Sign the CLA to legally allow your contributions to be included in the project."
+    },
+    {
+      "Respect Community Code of Conduct": "Engage respectfully and constructively with the community, adhering to the code of conduct."
+    },
+    {
+      "Review and Address Feedback": "Respond to and incorporate feedback from code reviews to improve your contributions."
+    },
+    {
+      "Document Your Changes": "Provide clear documentation for any changes you make to help others understand your contributions."
+    },
+    {
+      "Create a New Branch": "Always create a new branch for your work to keep the main branch clean and organized."
+    },
+    {
+      "Report Issues": "Use the issue tracker to report bugs or suggest features, providing as much detail as possible."
+    },
+    {
+      "Run Tests Before Committing": "Ensure all tests pass before committing your changes to maintain code quality."
+    },
+    {
+      "Respect Project Maintainers": "Acknowledge and respect the decisions and feedback of project maintainers."
+    },
+    {
+      "Engage in Code Reviews": "Participate in reviewing others' code to help maintain the quality and integrity of the project."
+    },
+    {
+      "Update Documentation": "Keep documentation up-to-date with any changes or new features you introduce."
+    },
+    {
+      "Follow Branching Strategy": "Adhere to the project's branching strategy to ensure a smooth workflow."
+    },
+    {
+      "Use Clear and Descriptive Commit Messages": "Write commit messages that clearly describe the changes made to help others understand your work."
+    },
+    {
+      "Respect Contribution License Agreement": "Ensure your contributions comply with the project's licensing requirements."
+    },
+    {
+      "Write Automated Tests": "Include automated tests for new features or bug fixes to ensure reliability."
+    },
+    {
+      "Keep Your Branch Updated": "Regularly sync your branch with the main branch to avoid conflicts and stay up-to-date."
+    },
+    {
+      "Engage with Community": "Actively participate in community discussions and activities to stay informed and involved."
+    }
+  ],
+  "cluster_mapping": {
+    "Submit Pull Requests": {
+      "number_of_elements": 12,
+      "elements": [
+        "Submit Pull Requests for Changes",
+        "Submit Pull Requests for Contributions",
+        "Submit a pull request",
+        "Submit Pull Request",
+        "Submit Pull Requests for Review",
+        "Submit a Pull Request",
+        "Submit Pull Requests",
+        "Open Pull Request",
+        "Open a Pull Request for Review",
+        "Open a Pull Request",
+        "Push and Open a Pull Request",
+        "Open Pull Requests"
+      ]
+    },
+    "Fork and Clone the Repository": {
+      "number_of_elements": 13,
+      "elements": [
+        "Repository Fork",
+        "How to Fork Repository",
+        "Fork The Repository",
+        "Fork Repository",
+        "How to Fork the Repository",
+        "Fork the repository",
+        "Fork the Repository",
+        "Fork and Clone",
+        "Clone your fork",
+        "Clone Your Fork",
+        "Clone the Fork",
+        "Clone your Fork",
+        "How to Fork and Clone"
+      ]
+    },
+    "Follow Code Style Guidelines": {
+      "number_of_elements": 22,
+      "elements": [
+        "Follow Code Style Guides",
+        "Follow Project Style Guides",
+        "Follow the Code Style Guide",
+        "Follow Style Guide",
+        "Follow Coding Style Guide",
+        "Follow Style Guides",
+        "Follow the Code Style Guidelines",
+        "Follow Code Style Guidelines",
+        "Follow Style Guidelines",
+        "Follow Guidelines",
+        "Follow the coding style",
+        "Follow the Coding Style Guidelines",
+        "Follow Coding Style Guidelines",
+        "Follow Coding Guidelines",
+        "Follow the Coding Standards",
+        "Follow the Coding Standard",
+        "Follow Coding Standards",
+        "Follow coding standards",
+        "Follow Code Style",
+        "Code Style",
+        "Follow Code Style",
+        "Adhere to the Coding Standards"
+      ]
+    },
+    "Create Feature Branches": {
+      "number_of_elements": 11,
+      "elements": [
+        "Create Feature Branches",
+        "Create Branch for Feature",
+        "Create Feature Branch",
+        "Create a feature branch",
+        "Create a Feature Branch",
+        "Create Branches for Features",
+        "Creating a Branch",
+        "Creating a Feature Branch",
+        "Creating a New Branch",
+        "Creating Branches",
+        "Create a New Branch"
+      ]
+    },
+    "Sign Contributor License Agreement (CLA)": {
+      "number_of_elements": 6,
+      "elements": [
+        "Contributor License Agreement (CLA)",
+        "Sign the Contributor License Agreement (CLA)",
+        "Sign Contributor License Agreement (CLA)",
+        "Contributions License Agreement",
+        "Respect Contribution License Agreement",
+        "Contribution License Agreement"
+      ]
+    },
+    "Respect Community Code of Conduct": {
+      "number_of_elements": 10,
+      "elements": [
+        "Respect Community Code of Conduct",
+        "Respect the Community Code of Conduct",
+        "Community Code of Conduct",
+        "Community Conduct",
+        "Respect Community Conduct",
+        "Community Guidelines",
+        "Follow Community Guidelines",
+        "Respect Community Guidelines",
+        "Respect community guidelines",
+        "Code Of Conduct"
+      ]
+    },
+    "Review and Address Feedback": {
+      "number_of_elements": 9,
+      "elements": [
+        "Address Code Review Feedback",
+        "Address Feedback",
+        "Review and Address Feedback",
+        "Review Code and Address Feedback",
+        "Address Review Feedback",
+        "Review Feedback",
+        "Feedback and Reviews",
+        "Review and Feedback",
+        "Respond to Feedback"
+      ]
+    },
+    "Document Your Changes": {
+      "number_of_elements": 9,
+      "elements": [
+        "Document Your Changes",
+        "Document changes",
+        "Document Code Changes",
+        "Document your changes",
+        "Document Changes",
+        "Documentation",
+        "Review Documentation",
+        "Code Documentation",
+        "Update Documentation"
+      ]
+    },
+    "Create a New Branch": {
+      "number_of_elements": 5,
+      "elements": [
+        "Create a New Branch",
+        "Create a new branch",
+        "Create A New Branch",
+        "Create a new Branch",
+        "Create New Branch"
+      ]
+    },
+    "Report Issues": {
+      "number_of_elements": 8,
+      "elements": [
+        "How to Report Issues",
+        "Report Issues",
+        "Issue Reports",
+        "Submit Issue Reports",
+        "Issue Reporting",
+        "Issue Reporting Guidelines",
+        "Reporting Issues",
+        "Issue Reporting Etiquette"
+      ]
+    },
+    "Run Tests Before Committing": {
+      "number_of_elements": 6,
+      "elements": [
+        "Run Tests Before Commit",
+        "Run tests",
+        "Run All Tests",
+        "Run Tests",
+        "Run Tests Before Committing",
+        "Test Before Committing"
+      ]
+    },
+    "Respect Project Maintainers": {
+      "number_of_elements": 8,
+      "elements": [
+        "Respect Project maintainers",
+        "Respect project maintainers",
+        "Respect Maintainers",
+        "Respect Project Maintainers",
+        "Respect Maintainers' Decisions",
+        "Respect for Maintainers' Decisions",
+        "Respect Project Maintainers' Decisions",
+        "Respect Project Member"
+      ]
+    },
+    "Engage in Code Reviews": {
+      "number_of_elements": 11,
+      "elements": [
+        "Review Other Pull Requests",
+        "Pull Requests and Reviews",
+        "Pull Request Review",
+        "Pull Request Reviews",
+        "Review Pull Requests",
+        "Engage in Reviews",
+        "Engage with Code Reviews",
+        "Engage in Code Review",
+        "Engage in Code Reviews",
+        "Participate in Reviews",
+        "Participate in Code Reviews"
+      ]
+    },
+    "Update Documentation": {
+      "number_of_elements": 8,
+      "elements": [
+        "Update Documentation",
+        "Documentation Update",
+        "Update documentation",
+        "Documentation Updates",
+        "Documentation Improvements",
+        "Documentation Improvement",
+        "Maintain Documentation",
+        "Updating Documentation"
+      ]
+    },
+    "Follow Branching Strategy": {
+      "number_of_elements": 8,
+      "elements": [
+        "Follow Branching Strategy",
+        "Use Branching Strategy",
+        "Respect Branching Strategy",
+        "Branching Strategy",
+        "Branch Structure",
+        "Branching",
+        "Feature Branching",
+        "Branching Model"
+      ]
+    },
+    "Use Clear and Descriptive Commit Messages": {
+      "number_of_elements": 15,
+      "elements": [
+        "Include Clear Commit Messages",
+        "Commit Changes with Clear Messages",
+        "Use Clear Commit Messages",
+        "Write Descriptive Commits",
+        "Write Clear and Descriptive Commits",
+        "Write Clear Commits",
+        "Write Descriptive Commit Messages",
+        "Write Clear and Descriptive Commit Messages",
+        "Write Clear, Descriptive Commit Messages",
+        "Write Meaningful Commits",
+        "Use Meaningful Commits",
+        "Make Meaningful Commits",
+        "Write Good Commit Messages",
+        "Writing Good Commit Messages",
+        "Write Clear Commit Messages"
+      ]
+    },
+    "Respect Contribution License Agreement": {
+      "number_of_elements": 5,
+      "elements": [
+        "Respect Contribution License Agreement",
+        "Contribution License Agreement",
+        "License Agreement",
+        "Respect License Agreements",
+        "Respect Contribution Licenses"
+      ]
+    },
+    "Write Automated Tests": {
+      "number_of_elements": 9,
+      "elements": [
+        "Automated Testing",
+        "Automated Tests",
+        "Create Tests",
+        "Testing",
+        "Include tests",
+        "Include Tests",
+        "Include Tests with Contributions",
+        "Include Tests for Your Code",
+        "Write Tests"
+      ]
+    },
+    "Keep Your Branch Updated": {
+      "number_of_elements": 5,
+      "elements": [
+        "Keep Your Branch Updated",
+        "Keep Branches Updated",
+        "Keep Branch Updated",
+        "Keep Fork Updated",
+        "Keep Your Fork Updated"
+      ]
+    },
+    "Engage with Community": {
+      "number_of_elements": 9,
+      "elements": [
+        "Engage with Community",
+        "Engage with the Community",
+        "Engage with the community",
+        "Community Involvement",
+        "Community Participation",
+        "Community and Communication",
+        "Community Communication",
+        "Community Discussion",
+        "Community Discussions"
+      ]
+    }
+  }
+}
+```

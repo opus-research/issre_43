@@ -1,0 +1,964 @@
+```json
+[
+  {
+    "pull_request_id": "662178df18912b45d36a750e",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "yes",
+      "Document Your Changes": "yes",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "yes",
+      "Update Documentation": "yes",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "yes",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178e018912b45d36a750f",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "yes",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178e118912b45d36a7510",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "yes",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178e318912b45d36a7511",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "yes",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178e418912b45d36a7512",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178e618912b45d36a7514",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f018912b45d36a751d",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f118912b45d36a751e",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f218912b45d36a751f",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f318912b45d36a7520",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f418912b45d36a7521",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f618912b45d36a7522",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f718912b45d36a7523",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f818912b45d36a7524",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178f918912b45d36a7525",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178fb18912b45d36a7526",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178fc18912b45d36a7527",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178fd18912b45d36a7528",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178fe18912b45d36a7529",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7530",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7531",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7532",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7533",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7534",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7535",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7536",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7537",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7538",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7539",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7540",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7541",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7542",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7543",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7544",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7545",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7546",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7547",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7548",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7549",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a754a",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a754b",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a754c",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a754d",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a754e",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a754f",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7550",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7551",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "662178ff18912b45d36a7552",
+    "guideline_compliance": {
+      "Submit Pull Requests": "yes",
+      "Fork and Clone the Repository": "yes",
+      "Follow Code Style Guidelines": "no",
+      "Create Feature Branches": "yes",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Use Clear and Descriptive Commit Messages": "no",
+      "Write Automated Tests": "no",
+      "Engage with Community": "yes"
+    }
+  }
+]
+```

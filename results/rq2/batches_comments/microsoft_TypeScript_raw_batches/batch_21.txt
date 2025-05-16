@@ -1,0 +1,34 @@
+```json
+[
+  {
+    "pull_request_id": "661cc8a73a21fa1e1f194010",
+    "guideline_compliance": {
+      "Follow Code Style Guidelines": "no",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "yes",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "yes",
+      "Engage in Code Reviews": "yes",
+      "Update Documentation": "no",
+      "Engage with Community": "yes"
+    }
+  },
+  {
+    "pull_request_id": "661cc8a83a21fa1e1f194011",
+    "guideline_compliance": {
+      "Follow Code Style Guidelines": "no",
+      "Sign Contributor License Agreement (CLA)": "no",
+      "Code of Conduct": "yes",
+      "Review and Address Feedback": "no",
+      "Document Your Changes": "no",
+      "Report Issues": "no",
+      "Respect Project Maintainers": "no",
+      "Engage in Code Reviews": "no",
+      "Update Documentation": "no",
+      "Engage with Community": "no"
+    }
+  }
+]
+```
